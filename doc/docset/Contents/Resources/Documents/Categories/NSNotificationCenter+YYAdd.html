@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>NSNotificationCenter(YYAdd) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">base </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">China Software Cloud</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/postNotificationOnMainThread:">- postNotificationOnMainThread:</option>
+		
+		<option value="//api/name/postNotificationOnMainThread:waitUntilDone:">- postNotificationOnMainThread:waitUntilDone:</option>
+		
+		<option value="//api/name/postNotificationOnMainThreadWithName:object:">- postNotificationOnMainThreadWithName:object:</option>
+		
+		<option value="//api/name/postNotificationOnMainThreadWithName:object:userInfo:">- postNotificationOnMainThreadWithName:object:userInfo:</option>
+		
+		<option value="//api/name/postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:">- postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">NSNotificationCenter(YYAdd) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>NSNotificationCenter+YYAdd.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Provide some method for <code>NSNotificationCenter</code>
+to post notification in different thread.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/postNotificationOnMainThread:" title="postNotificationOnMainThread:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postNotificationOnMainThread:">&ndash;&nbsp;postNotificationOnMainThread:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Posts a given notification to the receiver on main thread.
+If current thread is main thread, the notification is posted synchronized;
+otherwise, is posted asynchronized.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)postNotificationOnMainThread:(NSNotification *)<em>notification</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>notification</code></th>
+						<td><p>The notification to post.
+                      An exception is raised if notification is nil.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSNotificationCenter+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/postNotificationOnMainThread:waitUntilDone:" title="postNotificationOnMainThread:waitUntilDone:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postNotificationOnMainThread:waitUntilDone:">&ndash;&nbsp;postNotificationOnMainThread:waitUntilDone:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Posts a given notification to the receiver on main thread.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)postNotificationOnMainThread:(NSNotification *)<em>notification</em> waitUntilDone:(BOOL)<em>wait</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>notification</code></th>
+						<td><p>The notification to post.
+                     An exception is raised if notification is nil.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>wait</code></th>
+						<td><p>A Boolean that specifies whether the current thread blocks
+                     until after the specified notification is posted on the
+                     receiver on the main thread. Specify YES to block this
+                     thread; otherwise, specify NO to have this method return
+                     immediately.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSNotificationCenter+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/postNotificationOnMainThreadWithName:object:" title="postNotificationOnMainThreadWithName:object:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postNotificationOnMainThreadWithName:object:">&ndash;&nbsp;postNotificationOnMainThreadWithName:object:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a notification with a given name and sender and posts it to the
+receiver on main thread. If current thread is main thread, the notification
+is posted synchronized; otherwise, is posted asynchronized.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)postNotificationOnMainThreadWithName:(NSString *)<em>name</em> object:(nullable id)<em>object</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>The name of the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The object posting the notification.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSNotificationCenter+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/postNotificationOnMainThreadWithName:object:userInfo:" title="postNotificationOnMainThreadWithName:object:userInfo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postNotificationOnMainThreadWithName:object:userInfo:">&ndash;&nbsp;postNotificationOnMainThreadWithName:object:userInfo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a notification with a given name and sender and posts it to the
+receiver on main thread. If current thread is main thread, the notification
+is posted synchronized; otherwise, is posted asynchronized.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)postNotificationOnMainThreadWithName:(NSString *)<em>name</em> object:(nullable id)<em>object</em> userInfo:(nullable NSDictionary *)<em>userInfo</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>The name of the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The object posting the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>Information about the the notification. May be nil.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSNotificationCenter+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:" title="postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:">&ndash;&nbsp;postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a notification with a given name and sender and posts it to the
+receiver on main thread.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)postNotificationOnMainThreadWithName:(NSString *)<em>name</em> object:(nullable id)<em>object</em> userInfo:(nullable NSDictionary *)<em>userInfo</em> waitUntilDone:(BOOL)<em>wait</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>The name of the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>object</code></th>
+						<td><p>The object posting the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>Information about the the notification. May be nil.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>wait</code></th>
+						<td><p>A Boolean that specifies whether the current thread blocks
+                 until after the specified notification is posted on the
+                 receiver on the main thread. Specify YES to block this
+                 thread; otherwise, specify NO to have this method return
+                 immediately.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSNotificationCenter+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 China Software Cloud. All rights reserved. Updated: 2019-09-12</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIImage+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIImage(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide some commen method for UIImage.
+Image process is based on CoreGraphic and vImage.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithSmallGIFData:scale:</TokenIdentifier>
+			<Abstract type="html">Create an animated image with GIF data. After created, you can access
+the images via property &apos;.images&apos;. If the data is not animated gif, this
+function is same as [UIImage imageWithData:data scale:scale];</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithSmallGIFData:(NSData *)data scale:(CGFloat)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">GIF data.</Abstract>
+				</Parameter><Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">The scale factor</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new image created from GIF, or nil when an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithSmallGIFData:scale:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/isAnimatedGIFData:</TokenIdentifier>
+			<Abstract type="html">Whether the data is animated GIF.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isAnimatedGIFData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Image data</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns YES only if the data is gif and contains more than one frame,
+         otherwise returns NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isAnimatedGIFData:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/isAnimatedGIFFile:</TokenIdentifier>
+			<Abstract type="html">Whether the file in the specified path is GIF.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isAnimatedGIFFile:(NSString *)path</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">An absolute file path.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns YES if the file is gif, otherwise returns NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isAnimatedGIFFile:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithPDF:</TokenIdentifier>
+			<Abstract type="html">Create an image from a PDF file data or path.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithPDF:(id)dataOrPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataOrPath</Name>
+					<Abstract type="html">PDF data in NSData, or PDF file path in NSString.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new image create from PDF, or nil when an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithPDF:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithPDF:size:</TokenIdentifier>
+			<Abstract type="html">Create an image from a PDF file data or path.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithPDF:(id)dataOrPath size:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataOrPath</Name>
+					<Abstract type="html">PDF data in NSData, or PDF file path in NSString.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The new image&apos;s size, PDF&apos;s content will be stretched as needed.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new image create from PDF, or nil when an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithPDF:size:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithEmoji:size:</TokenIdentifier>
+			<Abstract type="html">Create a square image from apple emoji.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithEmoji:(NSString *)emoji size:(CGFloat)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>emoji</Name>
+					<Abstract type="html">single emoji, such as @&quot;😄&quot;.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">image&apos;s size.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Image from emoji, or nil when an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithEmoji:size:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithColor:</TokenIdentifier>
+			<Abstract type="html">Create and return a 1x1 point size image with the given color.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageWithColor:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithColor:size:</TokenIdentifier>
+			<Abstract type="html">Create and return a pure color image with the given color and size.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The color.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">New image&apos;s type.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageWithColor:size:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageWithSize:drawBlock:</TokenIdentifier>
+			<Abstract type="html">Create and return an image with custom draw code.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIImage *)imageWithSize:(CGSize)size drawBlock:(void ( ^ ) ( CGContextRef context ))drawBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The image size.</Abstract>
+				</Parameter><Parameter>
+					<Name>drawBlock</Name>
+					<Abstract type="html">The draw block.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new image.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageWithSize:drawBlock:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/hasAlphaChannel</TokenIdentifier>
+			<Abstract type="html">Whether this image has alpha channel.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)hasAlphaChannel</Declaration>
+			
+			
+			<Anchor>//api/name/hasAlphaChannel</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/drawInRect:withContentMode:clipsToBounds:</TokenIdentifier>
+			<Abstract type="html">Draws the entire image in the specified rectangle, content changed with
+the contentMode.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)drawInRect:(CGRect)rect withContentMode:(UIViewContentMode)contentMode clipsToBounds:(BOOL)clips</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">The rectangle in which to draw the image.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentMode</Name>
+					<Abstract type="html">Draw content mode</Abstract>
+				</Parameter><Parameter>
+					<Name>clips</Name>
+					<Abstract type="html">A Boolean value that determines whether content are confined to the rect.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/drawInRect:withContentMode:clipsToBounds:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByResizeToSize:</TokenIdentifier>
+			<Abstract type="html">Returns a new image which is scaled from this image.
+The image will be stretched as needed.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByResizeToSize:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The new size to be scaled, values should be positive.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new image with the given size.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageByResizeToSize:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByResizeToSize:contentMode:</TokenIdentifier>
+			<Abstract type="html">Returns a new image which is scaled from this image.
+The image content will be changed with thencontentMode.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByResizeToSize:(CGSize)size contentMode:(UIViewContentMode)contentMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The new size to be scaled, values should be positive.</Abstract>
+				</Parameter><Parameter>
+					<Name>contentMode</Name>
+					<Abstract type="html">The content mode for image content.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new image with the given size.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageByResizeToSize:contentMode:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByCropToRect:</TokenIdentifier>
+			<Abstract type="html">Returns a new image which is cropped from this image.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByCropToRect:(CGRect)rect</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">Image&apos;s inner rect.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new image, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageByCropToRect:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByInsetEdge:withColor:</TokenIdentifier>
+			<Abstract type="html">Returns a new image which is edge inset from this image.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByInsetEdge:(UIEdgeInsets)insets withColor:(nullable UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>insets</Name>
+					<Abstract type="html">Inset (positive) for each of the edges, values can be negative to &apos;outset&apos;.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">Extend edge&apos;s fill color, nil means clear color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new image, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/imageByInsetEdge:withColor:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRoundCornerRadius:</TokenIdentifier>
+			<Abstract type="html">Rounds a new image with a given corner size.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)radius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">The radius of each corner oval. Values larger than half the
+rectangle&apos;s width or height are clamped appropriately to half
+the width or height.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByRoundCornerRadius:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRoundCornerRadius:borderWidth:borderColor:</TokenIdentifier>
+			<Abstract type="html">Rounds a new image with a given corner size.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(nullable UIColor *)borderColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">The radius of each corner oval. Values larger than half the
+                     rectangle&apos;s width or height are clamped appropriately to
+                     half the width or height.</Abstract>
+				</Parameter><Parameter>
+					<Name>borderWidth</Name>
+					<Abstract type="html">The inset border line width. Values larger than half the rectangle&apos;s
+                     width or height are clamped appropriately to half the width
+                     or height.</Abstract>
+				</Parameter><Parameter>
+					<Name>borderColor</Name>
+					<Abstract type="html">The border stroke color. nil means clear color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByRoundCornerRadius:borderWidth:borderColor:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:</TokenIdentifier>
+			<Abstract type="html">Rounds a new image with a given corner size.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)radius corners:(UIRectCorner)corners borderWidth:(CGFloat)borderWidth borderColor:(nullable UIColor *)borderColor borderLineJoin:(CGLineJoin)borderLineJoin</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">The radius of each corner oval. Values larger than half the
+                     rectangle&apos;s width or height are clamped appropriately to
+                     half the width or height.</Abstract>
+				</Parameter><Parameter>
+					<Name>corners</Name>
+					<Abstract type="html">A bitmask value that identifies the corners that you want
+                     rounded. You can use this parameter to round only a subset
+                     of the corners of the rectangle.</Abstract>
+				</Parameter><Parameter>
+					<Name>borderWidth</Name>
+					<Abstract type="html">The inset border line width. Values larger than half the rectangle&apos;s
+                     width or height are clamped appropriately to half the width
+                     or height.</Abstract>
+				</Parameter><Parameter>
+					<Name>borderColor</Name>
+					<Abstract type="html">The border stroke color. nil means clear color.</Abstract>
+				</Parameter><Parameter>
+					<Name>borderLineJoin</Name>
+					<Abstract type="html">The border line join.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRotate:fitSize:</TokenIdentifier>
+			<Abstract type="html">Returns a new rotated image (relative to the center).</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRotate:(CGFloat)radians fitSize:(BOOL)fitSize</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>radians</Name>
+					<Abstract type="html">Rotated radians in counterclockwise.⟲</Abstract>
+				</Parameter><Parameter>
+					<Name>fitSize</Name>
+					<Abstract type="html">YES: new image&apos;s size is extend to fit all content.
+                  NO: image&apos;s size will not change, content may be clipped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByRotate:fitSize:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRotateLeft90</TokenIdentifier>
+			<Abstract type="html">Returns a new image rotated counterclockwise by a quarter‑turn (90°). ⤺
+The width and height will be exchanged.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRotateLeft90</Declaration>
+			
+			
+			<Anchor>//api/name/imageByRotateLeft90</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRotateRight90</TokenIdentifier>
+			<Abstract type="html">Returns a new image rotated clockwise by a quarter‑turn (90°). ⤼
+The width and height will be exchanged.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRotateRight90</Declaration>
+			
+			
+			<Anchor>//api/name/imageByRotateRight90</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByRotate180</TokenIdentifier>
+			<Abstract type="html">Returns a new image rotated 180° . ↻</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByRotate180</Declaration>
+			
+			
+			<Anchor>//api/name/imageByRotate180</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByFlipVertical</TokenIdentifier>
+			<Abstract type="html">Returns a vertically flipped image. ⥯</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByFlipVertical</Declaration>
+			
+			
+			<Anchor>//api/name/imageByFlipVertical</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByFlipHorizontal</TokenIdentifier>
+			<Abstract type="html">Returns a horizontally flipped image. ⇋</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByFlipHorizontal</Declaration>
+			
+			
+			<Anchor>//api/name/imageByFlipHorizontal</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByTintColor:</TokenIdentifier>
+			<Abstract type="html">Tint the image in alpha channel with the given color.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByTintColor:(UIColor *)color</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByTintColor:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByGrayscale</TokenIdentifier>
+			<Abstract type="html">Returns a grayscaled image.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByGrayscale</Declaration>
+			
+			
+			<Anchor>//api/name/imageByGrayscale</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurSoft</TokenIdentifier>
+			<Abstract type="html">Applies a blur effect to this image. Suitable for blur any content.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurSoft</Declaration>
+			
+			
+			<Anchor>//api/name/imageByBlurSoft</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurLight</TokenIdentifier>
+			<Abstract type="html">Applies a blur effect to this image. Suitable for blur any content except pure white.
+(same as iOS Control Panel)</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurLight</Declaration>
+			
+			
+			<Anchor>//api/name/imageByBlurLight</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurExtraLight</TokenIdentifier>
+			<Abstract type="html">Applies a blur effect to this image. Suitable for displaying black text.
+(same as iOS Navigation Bar White)</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurExtraLight</Declaration>
+			
+			
+			<Anchor>//api/name/imageByBlurExtraLight</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurDark</TokenIdentifier>
+			<Abstract type="html">Applies a blur effect to this image. Suitable for displaying white text.
+(same as iOS Notification Center)</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurDark</Declaration>
+			
+			
+			<Anchor>//api/name/imageByBlurDark</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurWithTint:</TokenIdentifier>
+			<Abstract type="html">Applies a blur and tint color to this image.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurWithTint:(UIColor *)tintColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tintColor</Name>
+					<Abstract type="html">The tint color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/imageByBlurWithTint:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIImage/imageByBlurRadius:tintColor:tintMode:saturation:maskImage:</TokenIdentifier>
+			<Abstract type="html">Applies a blur, tint color, and saturation adjustment to this image,
+optionally within the area specified by @a maskImage.</Abstract>
+			<DeclaredIn>UIImage+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)imageByBlurRadius:(CGFloat)blurRadius tintColor:(nullable UIColor *)tintColor tintMode:(CGBlendMode)tintBlendMode saturation:(CGFloat)saturation maskImage:(nullable UIImage *)maskImage</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>blurRadius</Name>
+					<Abstract type="html">The radius of the blur in points, 0 means no blur effect.</Abstract>
+				</Parameter><Parameter>
+					<Name>tintColor</Name>
+					<Abstract type="html">An optional UIColor object that is uniformly blended with
+                       the result of the blur and saturation operations. The
+                       alpha channel of this color determines how strong the
+                       tint is. nil means no tint.</Abstract>
+				</Parameter><Parameter>
+					<Name>tintBlendMode</Name>
+					<Abstract type="html">The @a tintColor blend mode. Default is kCGBlendModeNormal (0).</Abstract>
+				</Parameter><Parameter>
+					<Name>saturation</Name>
+					<Abstract type="html">A value of 1.0 produces no change in the resulting image.
+                       Values less than 1.0 will desaturation the resulting image
+                       while values greater than 1.0 will have the opposite effect.
+                       0 means gray scale.</Abstract>
+				</Parameter><Parameter>
+					<Name>maskImage</Name>
+					<Abstract type="html">If specified, @a inputImage is only modified in the area(s)
+                       defined by this mask.  This must be an image mask or it
+                       must meet the requirements of the mask parameter of
+                       CGContextClipToMask.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">image with effect, or nil if an error occurs (e.g. no
+                       enough memory).</Abstract></ReturnValue>
+			<Anchor>//api/name/imageByBlurRadius:tintColor:tintMode:saturation:maskImage:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>NSObject(YYAdd) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">base </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">China Software Cloud</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/className">+ className</option>
+		
+		<option value="//api/name/swizzleClassMethod:with:">+ swizzleClassMethod:with:</option>
+		
+		<option value="//api/name/swizzleInstanceMethod:with:">+ swizzleInstanceMethod:with:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/className">- className</option>
+		
+		<option value="//api/name/deepCopy">- deepCopy</option>
+		
+		<option value="//api/name/deepCopyWithArchiver:unarchiver:">- deepCopyWithArchiver:unarchiver:</option>
+		
+		<option value="//api/name/getAssociatedValueForKey:">- getAssociatedValueForKey:</option>
+		
+		<option value="//api/name/performSelector:afterDelay:">- performSelector:afterDelay:</option>
+		
+		<option value="//api/name/performSelectorWithArgs:">- performSelectorWithArgs:</option>
+		
+		<option value="//api/name/performSelectorWithArgs:afterDelay:">- performSelectorWithArgs:afterDelay:</option>
+		
+		<option value="//api/name/performSelectorWithArgs:onThread:waitUntilDone:">- performSelectorWithArgs:onThread:waitUntilDone:</option>
+		
+		<option value="//api/name/performSelectorWithArgsInBackground:">- performSelectorWithArgsInBackground:</option>
+		
+		<option value="//api/name/performSelectorWithArgsOnMainThread:waitUntilDone:">- performSelectorWithArgsOnMainThread:waitUntilDone:</option>
+		
+		<option value="//api/name/removeAssociatedValues">- removeAssociatedValues</option>
+		
+		<option value="//api/name/setAssociateValue:withKey:">- setAssociateValue:withKey:</option>
+		
+		<option value="//api/name/setAssociateWeakValue:withKey:">- setAssociateWeakValue:withKey:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">NSObject(YYAdd) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>NSObject+YYAdd.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Common tasks for NSObject.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Sending messages with variable parameters" name="task_Sending messages with variable parameters"></a>
+						<h2 class="task-title">Sending messages with variable parameters</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/performSelectorWithArgs:" title="performSelectorWithArgs:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelectorWithArgs:">&ndash;&nbsp;performSelectorWithArgs:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sends a specified message to the receiver and returns the result of the message.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)performSelectorWithArgs:(SEL)<em>sel</em>, <em>...</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>...</code></th>
+						<td><p>Variable parameter list. Parameters type must correspond to the
+               selector&rsquo;s method declaration, or unexpected results may occur.
+               It doesn&rsquo;t support union or struct which is larger than 256 bytes.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An object that is the result of the message.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The selector&rsquo;s return value will be wrap as NSNumber or NSValue
+               if the selector&rsquo;s <code>return type</code> is not object. It always returns nil
+               if the selector&rsquo;s <code>return type</code> is void.</p>
+
+<p>Sample Code:</p>
+
+<pre><code> // no variable args
+ [view performSelectorWithArgs:@selector(removeFromSuperView)];
+
+ // variable arg is not object
+ [view performSelectorWithArgs:@selector(setCenter:), CGPointMake(0, 0)];
+
+ // perform and return object
+ UIImage *image = [UIImage.class performSelectorWithArgs:@selector(imageWithData:scale:), data, 2.0];
+
+ // perform and return wrapped number
+ NSNumber *lengthValue = [@"hello" performSelectorWithArgs:@selector(length)];
+ NSUInteger length = lengthValue.unsignedIntegerValue;
+
+ // perform and return wrapped struct
+ NSValue *frameValue = [view performSelectorWithArgs:@selector(frame)];
+ CGRect frame = frameValue.CGRectValue;
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performSelectorWithArgs:afterDelay:" title="performSelectorWithArgs:afterDelay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelectorWithArgs:afterDelay:">&ndash;&nbsp;performSelectorWithArgs:afterDelay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invokes a method of the receiver on the current thread using the default mode after a delay.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performSelectorWithArgs:(SEL)<em>sel</em> afterDelay:(NSTimeInterval)<em>delay</em>, <em>...</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised immediately.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delay</code></th>
+						<td><p>The minimum time before which the message is sent. Specifying
+               a delay of 0 does not necessarily cause the selector to be
+               performed immediately. The selector is still queued on the
+               thread&rsquo;s run loop and performed as soon as possible.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>...</code></th>
+						<td><p>Variable parameter list. Parameters type must correspond to the
+               selector&rsquo;s method declaration, or unexpected results may occur.
+               It doesn&rsquo;t support union or struct which is larger than 256 bytes.</p>
+
+<p>Sample Code:</p>
+
+<pre><code> // no variable args
+ [view performSelectorWithArgs:@selector(removeFromSuperView) afterDelay:2.0];
+
+ // variable arg is not object
+ [view performSelectorWithArgs:@selector(setCenter:), afterDelay:0, CGPointMake(0, 0)];
+</code></pre></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> It can&rsquo;t cancelled by previous request.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performSelectorWithArgsOnMainThread:waitUntilDone:" title="performSelectorWithArgsOnMainThread:waitUntilDone:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelectorWithArgsOnMainThread:waitUntilDone:">&ndash;&nbsp;performSelectorWithArgsOnMainThread:waitUntilDone:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invokes a method of the receiver on the main thread using the default mode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)performSelectorWithArgsOnMainThread:(SEL)<em>sel</em> waitUntilDone:(BOOL)<em>wait</em>, <em>...</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>wait</code></th>
+						<td><p>A Boolean that specifies whether the current thread blocks until
+               after the specified selector is performed on the receiver on the
+               specified thread. Specify YES to block this thread; otherwise,
+               specify NO to have this method return immediately.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>...</code></th>
+						<td><p>Variable parameter list. Parameters type must correspond to the
+               selector&rsquo;s method declaration, or unexpected results may occur.
+               It doesn&rsquo;t support union or struct which is larger than 256 bytes.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>While @a wait is YES, it returns object that is the result of
+               the message. Otherwise return nil;</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The selector&rsquo;s return value will be wrap as NSNumber or NSValue
+               if the selector&rsquo;s <code>return type</code> is not object. It always returns nil
+               if the selector&rsquo;s <code>return type</code> is void, or @a wait is YES.</p>
+
+<p>Sample Code:</p>
+
+<pre><code> // no variable args
+ [view performSelectorWithArgsOnMainThread:@selector(removeFromSuperView), waitUntilDone:NO];
+
+ // variable arg is not object
+ [view performSelectorWithArgsOnMainThread:@selector(setCenter:), waitUntilDone:NO, CGPointMake(0, 0)];
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performSelectorWithArgs:onThread:waitUntilDone:" title="performSelectorWithArgs:onThread:waitUntilDone:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelectorWithArgs:onThread:waitUntilDone:">&ndash;&nbsp;performSelectorWithArgs:onThread:waitUntilDone:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invokes a method of the receiver on the specified thread using the default mode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)performSelectorWithArgs:(SEL)<em>sel</em> onThread:(NSThread *)<em>thread</em> waitUntilDone:(BOOL)<em>wait</em>, <em>...</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>thread</code></th>
+						<td><p>The thread on which to execute aSelector.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>wait</code></th>
+						<td><p>A Boolean that specifies whether the current thread blocks until
+               after the specified selector is performed on the receiver on the
+               specified thread. Specify YES to block this thread; otherwise,
+               specify NO to have this method return immediately.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>...</code></th>
+						<td><p>Variable parameter list. Parameters type must correspond to the
+               selector&rsquo;s method declaration, or unexpected results may occur.
+               It doesn&rsquo;t support union or struct which is larger than 256 bytes.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>While @a wait is YES, it returns object that is the result of
+               the message. Otherwise return nil;</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The selector&rsquo;s return value will be wrap as NSNumber or NSValue
+               if the selector&rsquo;s <code>return type</code> is not object. It always returns nil
+               if the selector&rsquo;s <code>return type</code> is void, or @a wait is YES.</p>
+
+<p>Sample Code:</p>
+
+<pre><code> [view performSelectorWithArgs:@selector(removeFromSuperView) onThread:mainThread waitUntilDone:NO];
+
+ [array  performSelectorWithArgs:@selector(sortUsingComparator:)
+                        onThread:backgroundThread
+                   waitUntilDone:NO, ^NSComparisonResult(NSNumber *num1, NSNumber *num2) {
+     return [num2 compare:num2];
+ }];
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performSelectorWithArgsInBackground:" title="performSelectorWithArgsInBackground:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelectorWithArgsInBackground:">&ndash;&nbsp;performSelectorWithArgsInBackground:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invokes a method of the receiver on a new background thread.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performSelectorWithArgsInBackground:(SEL)<em>sel</em>, <em>...</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>...</code></th>
+						<td><p>Variable parameter list. Parameters type must correspond to the
+               selector&rsquo;s method declaration, or unexpected results may occur.
+               It doesn&rsquo;t support union or struct which is larger than 256 bytes.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method creates a new thread in your application, putting
+               your application into multithreaded mode if it was not already.
+               The method represented by sel must set up the thread environment
+               just as you would for any other new thread in your program.</p>
+
+<p>Sample Code:</p>
+
+<pre><code> [array  performSelectorWithArgsInBackground:@selector(sortUsingComparator:),
+            ^NSComparisonResult(NSNumber *num1, NSNumber *num2) {
+    return [num2 compare:num2];
+ }];
+</code></pre>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performSelector:afterDelay:" title="performSelector:afterDelay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performSelector:afterDelay:">&ndash;&nbsp;performSelector:afterDelay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Invokes a method of the receiver on the current thread after a delay.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performSelector:(SEL)<em>sel</em> afterDelay:(NSTimeInterval)<em>delay</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sel</code></th>
+						<td><p>A selector that identifies the method to invoke. The method should
+              not have a significant return value and should take no argument.
+              If the selector is NULL or unrecognized,
+              an NSInvalidArgumentException is raised after the delay.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delay</code></th>
+						<td><p>The minimum time before which the message is sent. Specifying a
+              delay of 0 does not necessarily cause the selector to be performed
+              immediately. The selector is still queued on the thread&rsquo;s run loop
+              and performed as soon as possible.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> arc-performSelector-leaks</p></div><p>This method sets up a timer to perform the aSelector message on
+              the current thread&rsquo;s run loop. The timer is configured to run in
+              the default mode (NSDefaultRunLoopMode). When the timer fires, the
+              thread attempts to dequeue the message from the run loop and
+              perform the selector. It succeeds if the run loop is running and
+              in the default mode; otherwise, the timer waits until the run loop
+              is in the default mode.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Swap method (Swizzling)" name="task_Swap method (Swizzling)"></a>
+						<h2 class="task-title">Swap method (Swizzling)</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/swizzleInstanceMethod:with:" title="swizzleInstanceMethod:with:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/swizzleInstanceMethod:with:">+&nbsp;swizzleInstanceMethod:with:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Swap two instance method&rsquo;s implementation in one class. Dangerous, be careful.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)swizzleInstanceMethod:(SEL)<em>originalSel</em> with:(SEL)<em>newSel</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>originalSel</code></th>
+						<td><p>Selector 1.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newSel</code></th>
+						<td><p>Selector 2.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if swizzling succeed; otherwise, NO.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/swizzleClassMethod:with:" title="swizzleClassMethod:with:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/swizzleClassMethod:with:">+&nbsp;swizzleClassMethod:with:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Swap two class method&rsquo;s implementation in one class. Dangerous, be careful.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)swizzleClassMethod:(SEL)<em>originalSel</em> with:(SEL)<em>newSel</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>originalSel</code></th>
+						<td><p>Selector 1.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newSel</code></th>
+						<td><p>Selector 2.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if swizzling succeed; otherwise, NO.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Associate value" name="task_Associate value"></a>
+						<h2 class="task-title">Associate value</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setAssociateValue:withKey:" title="setAssociateValue:withKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAssociateValue:withKey:">&ndash;&nbsp;setAssociateValue:withKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Associate one object to <code>self</code>, as if it was a strong property (strong, nonatomic).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAssociateValue:(nullable id)<em>value</em> withKey:(void *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>The object to associate.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The pointer to get value from <code>self</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAssociateWeakValue:withKey:" title="setAssociateWeakValue:withKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAssociateWeakValue:withKey:">&ndash;&nbsp;setAssociateWeakValue:withKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Associate one object to <code>self</code>, as if it was a weak property (week, nonatomic).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAssociateWeakValue:(nullable id)<em>value</em> withKey:(void *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>The object to associate.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The pointer to get value from <code>self</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getAssociatedValueForKey:" title="getAssociatedValueForKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getAssociatedValueForKey:">&ndash;&nbsp;getAssociatedValueForKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get the associated value from <code>self</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)getAssociatedValueForKey:(void *)<em>key</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>The pointer to get value from <code>self</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeAssociatedValues" title="removeAssociatedValues"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeAssociatedValues">&ndash;&nbsp;removeAssociatedValues</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Remove all associated values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeAssociatedValues</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Others" name="task_Others"></a>
+						<h2 class="task-title">Others</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/className" title="className"></a>
+	<h3 class="method-title"><code><a href="#//api/name/className">+&nbsp;className</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the class name in NSString.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)className</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/className" title="className"></a>
+	<h3 class="method-title"><code><a href="#//api/name/className">&ndash;&nbsp;className</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the class name in NSString.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)className</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Apple has implemented this method in NSObject(NSLayoutConstraintCallsThis),
+but did not make it public.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deepCopy" title="deepCopy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deepCopy">&ndash;&nbsp;deepCopy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a copy of the instance with <code>NSKeyedArchiver</code> and <code>NSKeyedUnarchiver</code>.
+Returns nil if an error occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)deepCopy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deepCopyWithArchiver:unarchiver:" title="deepCopyWithArchiver:unarchiver:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deepCopyWithArchiver:unarchiver:">&ndash;&nbsp;deepCopyWithArchiver:unarchiver:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a copy of the instance use archiver and unarchiver.
+Returns nil if an error occurs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id)deepCopyWithArchiver:(Class)<em>archiver</em> unarchiver:(Class)<em>unarchiver</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>archiver</code></th>
+						<td><p>NSKeyedArchiver class or any class inherited.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>unarchiver</code></th>
+						<td><p>NSKeyedUnarchiver clsas or any class inherited.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NSObject+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 China Software Cloud. All rights reserved. Updated: 2019-09-12</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

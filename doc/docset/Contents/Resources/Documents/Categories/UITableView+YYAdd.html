@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>UITableView(YYAdd) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">base </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">China Software Cloud</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/clearSelectedRowsAnimated:">- clearSelectedRowsAnimated:</option>
+		
+		<option value="//api/name/deleteRow:inSection:withRowAnimation:">- deleteRow:inSection:withRowAnimation:</option>
+		
+		<option value="//api/name/deleteRowAtIndexPath:withRowAnimation:">- deleteRowAtIndexPath:withRowAnimation:</option>
+		
+		<option value="//api/name/deleteSection:withRowAnimation:">- deleteSection:withRowAnimation:</option>
+		
+		<option value="//api/name/insertRow:inSection:withRowAnimation:">- insertRow:inSection:withRowAnimation:</option>
+		
+		<option value="//api/name/insertRowAtIndexPath:withRowAnimation:">- insertRowAtIndexPath:withRowAnimation:</option>
+		
+		<option value="//api/name/insertSection:withRowAnimation:">- insertSection:withRowAnimation:</option>
+		
+		<option value="//api/name/reloadRow:inSection:withRowAnimation:">- reloadRow:inSection:withRowAnimation:</option>
+		
+		<option value="//api/name/reloadRowAtIndexPath:withRowAnimation:">- reloadRowAtIndexPath:withRowAnimation:</option>
+		
+		<option value="//api/name/reloadSection:withRowAnimation:">- reloadSection:withRowAnimation:</option>
+		
+		<option value="//api/name/scrollToRow:inSection:atScrollPosition:animated:">- scrollToRow:inSection:atScrollPosition:animated:</option>
+		
+		<option value="//api/name/updateWithBlock:">- updateWithBlock:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">UITableView(YYAdd) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>UITableView+YYAdd.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Provides extensions for <code>UITableView</code>.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/updateWithBlock:" title="updateWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateWithBlock:">&ndash;&nbsp;updateWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Perform a series of method calls that insert, delete, or select rows and
+sections of the receiver.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)updateWithBlock:(void ( ^ ) ( UITableView *tableView ))<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>A block combine a series of method calls.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Perform a series of method calls that insert, delete, or select
+             rows and sections of the table. Call this method if you want
+             subsequent insertions, deletion, and selection operations (for
+             example, cellForRowAtIndexPath: and indexPathsForVisibleRows)
+             to be animated simultaneously.</p><p>If you do not make the insertion, deletion, and selection calls
+             inside this block, table attributes such as row count might become
+             invalid. You should not call reloadData within the block; if you
+             call this method within the group, you will need to perform any
+             animations yourself.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scrollToRow:inSection:atScrollPosition:animated:" title="scrollToRow:inSection:atScrollPosition:animated:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollToRow:inSection:atScrollPosition:animated:">&ndash;&nbsp;scrollToRow:inSection:atScrollPosition:animated:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Scrolls the receiver until a row or section location on the screen.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)scrollToRow:(NSUInteger)<em>row</em> inSection:(NSUInteger)<em>section</em> atScrollPosition:(UITableViewScrollPosition)<em>scrollPosition</em> animated:(BOOL)<em>animated</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>row</code></th>
+						<td><p>Row index in section. NSNotFound is a valid value for
+                        scrolling to a section with zero rows.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>Section index in table.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scrollPosition</code></th>
+						<td><p>A constant that identifies a relative position in the
+                        receiving table view (top, middle, bottom) for row when
+                        scrolling concludes.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animated</code></th>
+						<td><p>YES if you want to animate the change in position,
+                        NO if it should be immediate.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Invoking this method does not cause the delegate to
+                        receive a scrollViewDidScroll: message, as is normal for
+                        programmatically-invoked user interface operations.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/insertRow:inSection:withRowAnimation:" title="insertRow:inSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/insertRow:inSection:withRowAnimation:">&ndash;&nbsp;insertRow:inSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inserts a row in the receiver with an option to animate the insertion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)insertRow:(NSUInteger)<em>row</em> inSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>row</code></th>
+						<td><p>Row index in section.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>Section index in table.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that either specifies the kind of animation to
+                   perform when inserting the cell or requests no animation.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reloadRow:inSection:withRowAnimation:" title="reloadRow:inSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reloadRow:inSection:withRowAnimation:">&ndash;&nbsp;reloadRow:inSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reloads the specified row using a certain animation effect.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)reloadRow:(NSUInteger)<em>row</em> inSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>row</code></th>
+						<td><p>Row index in section.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>Section index in table.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the reloading is to be animated,
+                   for example, fade out or slide out from the bottom. The animation
+                   constant affects the direction in which both the old and the
+                   new rows slide. For example, if the animation constant is
+                   UITableViewRowAnimationRight, the old rows slide out to the
+                   right and the new cells slide in from the right.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteRow:inSection:withRowAnimation:" title="deleteRow:inSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteRow:inSection:withRowAnimation:">&ndash;&nbsp;deleteRow:inSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the row with an option to animate the deletion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteRow:(NSUInteger)<em>row</em> inSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>row</code></th>
+						<td><p>Row index in section.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>Section index in table.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the deletion is to be animated,
+                   for example, fade out or slide out from the bottom.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/insertRowAtIndexPath:withRowAnimation:" title="insertRowAtIndexPath:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/insertRowAtIndexPath:withRowAnimation:">&ndash;&nbsp;insertRowAtIndexPath:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inserts the row in the receiver at the locations identified by the indexPath,
+with an option to animate the insertion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)insertRowAtIndexPath:(NSIndexPath *)<em>indexPath</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>indexPath</code></th>
+						<td><p>An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that either specifies the kind of animation to
+                   perform when inserting the cell or requests no animation.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reloadRowAtIndexPath:withRowAnimation:" title="reloadRowAtIndexPath:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reloadRowAtIndexPath:withRowAnimation:">&ndash;&nbsp;reloadRowAtIndexPath:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reloads the specified row using a certain animation effect.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)reloadRowAtIndexPath:(NSIndexPath *)<em>indexPath</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>indexPath</code></th>
+						<td><p>An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the reloading is to be animated,
+                  for example, fade out or slide out from the bottom. The animation
+                  constant affects the direction in which both the old and the
+                  new rows slide. For example, if the animation constant is
+                  UITableViewRowAnimationRight, the old rows slide out to the
+                  right and the new cells slide in from the right.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteRowAtIndexPath:withRowAnimation:" title="deleteRowAtIndexPath:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteRowAtIndexPath:withRowAnimation:">&ndash;&nbsp;deleteRowAtIndexPath:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes the row specified by an array of index paths,
+with an option to animate the deletion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteRowAtIndexPath:(NSIndexPath *)<em>indexPath</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>indexPath</code></th>
+						<td><p>An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the deletion is to be animated,
+                   for example, fade out or slide out from the bottom.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/insertSection:withRowAnimation:" title="insertSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/insertSection:withRowAnimation:">&ndash;&nbsp;insertSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inserts a section in the receiver, with an option to animate the insertion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)insertSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>An index specifies the section to insert in the receiving
+                   table view. If a section already exists at the specified
+                   index location, it is moved down one index location.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the insertion is to be animated,
+                   for example, fade in or slide in from the left.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteSection:withRowAnimation:" title="deleteSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteSection:withRowAnimation:">&ndash;&nbsp;deleteSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deletes a section in the receiver, with an option to animate the deletion.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>An index that specifies the sections to delete from the
+                   receiving table view. If a section exists after the specified
+                   index location, it is moved up one index location.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that either specifies the kind of animation to
+                   perform when deleting the section or requests no animation.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reloadSection:withRowAnimation:" title="reloadSection:withRowAnimation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reloadSection:withRowAnimation:">&ndash;&nbsp;reloadSection:withRowAnimation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reloads the specified section using a given animation effect.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)reloadSection:(NSUInteger)<em>section</em> withRowAnimation:(UITableViewRowAnimation)<em>animation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>section</code></th>
+						<td><p>An index identifying the section to reload.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animation</code></th>
+						<td><p>A constant that indicates how the reloading is to be animated,
+                   for example, fade out or slide out from the bottom. The
+                   animation constant affects the direction in which both the
+                   old and the new section rows slide. For example, if the
+                   animation constant is UITableViewRowAnimationRight, the old
+                   rows slide out to the right and the new cells slide in from the right.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearSelectedRowsAnimated:" title="clearSelectedRowsAnimated:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearSelectedRowsAnimated:">&ndash;&nbsp;clearSelectedRowsAnimated:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Unselect all rows in tableView.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearSelectedRowsAnimated:(BOOL)<em>animated</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animated</code></th>
+						<td><p>YES to animate the transition, NO to make the transition immediate.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UITableView+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 China Software Cloud. All rights reserved. Updated: 2019-09-12</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

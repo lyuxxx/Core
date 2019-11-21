@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSKeyedUnarchiver+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSKeyedUnarchiver(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for NSKeyedUnarchiver.</Abstract>
+			<DeclaredIn>NSKeyedUnarchiver+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSKeyedUnarchiver/unarchiveObjectWithData:exception:</TokenIdentifier>
+			<Abstract type="html">Same as unarchiveObjectWithData:, except it returns the exception by reference.</Abstract>
+			<DeclaredIn>NSKeyedUnarchiver+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable id)unarchiveObjectWithData:(NSData *)data exception:(NSException *_Nullable *_Nullable)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data need unarchived.</Abstract>
+				</Parameter><Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">Pointer which will, upon return, if an exception occurred and
+said pointer is not NULL, point to said NSException.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unarchiveObjectWithData:exception:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSKeyedUnarchiver/unarchiveObjectWithFile:exception:</TokenIdentifier>
+			<Abstract type="html">Same as unarchiveObjectWithFile:, except it returns the exception by reference.</Abstract>
+			<DeclaredIn>NSKeyedUnarchiver+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable id)unarchiveObjectWithFile:(NSString *)path exception:(NSException *_Nullable *_Nullable)exception</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">The path of archived object file.</Abstract>
+				</Parameter><Parameter>
+					<Name>exception</Name>
+					<Abstract type="html">Pointer which will, upon return, if an exception occurred and
+said  pointer is not NULL, point to said NSException.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unarchiveObjectWithFile:exception:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

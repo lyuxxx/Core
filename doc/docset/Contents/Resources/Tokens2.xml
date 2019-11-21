@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/CALayer+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/CALayer(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for CALayer.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/snapshotImage</TokenIdentifier>
+			<Abstract type="html">Take snapshot without transform, image&apos;s size equals to bounds.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)snapshotImage</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotImage</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/snapshotPDF</TokenIdentifier>
+			<Abstract type="html">Take snapshot without transform, PDF&apos;s page size equals to bounds.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)snapshotPDF</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotPDF</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setLayerShadow:offset:radius:</TokenIdentifier>
+			<Abstract type="html">Shortcut to set the layer&apos;s shadow</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)setLayerShadow:(UIColor *)color offset:(CGSize)offset radius:(CGFloat)radius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">Shadow Color</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Shadow offset</Abstract>
+				</Parameter><Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">Shadow radius</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLayerShadow:offset:radius:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/removeAllSublayers</TokenIdentifier>
+			<Abstract type="html">Remove all sublayers.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllSublayers</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllSublayers</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setLeft:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/left</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/left</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTop:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/top</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/top</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setRight:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/right</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/right</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.x + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setBottom:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/bottom</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/bottom</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.y + frame.size</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setWidth:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.width.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/width</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.width.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/width</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.width.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setHeight:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.height.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/height</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.height.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/height</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.height.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setCenter:</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/center</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/center</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint center</Declaration>
+			
+			
+			<Anchor>//api/name/center</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setCenterX:</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.x</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerX</Declaration>
+			
+			
+			<Anchor>//api/name/centerX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/centerX</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.x</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerX</Declaration>
+			
+			
+			<Anchor>//api/name/centerX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/centerX</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.x</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerX</Declaration>
+			
+			
+			<Anchor>//api/name/centerX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setCenterY:</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerY</Declaration>
+			
+			
+			<Anchor>//api/name/centerY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/centerY</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerY</Declaration>
+			
+			
+			<Anchor>//api/name/centerY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/centerY</TokenIdentifier>
+			<Abstract type="html">Shortcut for center.y</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat centerY</Declaration>
+			
+			
+			<Anchor>//api/name/centerY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setOrigin:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/origin</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/origin</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.origin.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGPoint origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setFrameSize:</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=frameSize, setter=setFrameSize:) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/frameSize</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=frameSize, setter=setFrameSize:) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/size</TokenIdentifier>
+			<Abstract type="html">Shortcut for frame.size.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=frameSize, setter=setFrameSize:) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformRotation:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotation</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotation</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformRotation</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotation</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotation</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformRotation</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotation</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotation</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformRotationX:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformRotationX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformRotationX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformRotationY:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformRotationY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformRotationY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformRotationZ:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformRotationZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformRotationZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.rotation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformRotationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformRotationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformScale:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScale</Declaration>
+			
+			
+			<Anchor>//api/name/transformScale</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformScale</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScale</Declaration>
+			
+			
+			<Anchor>//api/name/transformScale</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformScale</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScale</Declaration>
+			
+			
+			<Anchor>//api/name/transformScale</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformScaleX:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleX</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformScaleX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleX</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformScaleX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleX</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformScaleY:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleY</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformScaleY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleY</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformScaleY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleY</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformScaleZ:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformScaleZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformScaleZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.scale.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformScaleZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformScaleZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformTranslationX:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformTranslationX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformTranslationX</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.x&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationX</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationX</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformTranslationY:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformTranslationY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformTranslationY</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.y&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationY</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationY</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformTranslationZ:</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformTranslationZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformTranslationZ</TokenIdentifier>
+			<Abstract type="html">key path &quot;tranform.translation.z&quot;</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformTranslationZ</Declaration>
+			
+			
+			<Anchor>//api/name/transformTranslationZ</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setTransformDepth:</TokenIdentifier>
+			<Abstract type="html">Shortcut for transform.m34, -1/1000 is a good value.
+It should be set before other transform shortcut.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformDepth</Declaration>
+			
+			
+			<Anchor>//api/name/transformDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/transformDepth</TokenIdentifier>
+			<Abstract type="html">Shortcut for transform.m34, -1/1000 is a good value.
+It should be set before other transform shortcut.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformDepth</Declaration>
+			
+			
+			<Anchor>//api/name/transformDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/transformDepth</TokenIdentifier>
+			<Abstract type="html">Shortcut for transform.m34, -1/1000 is a good value.
+It should be set before other transform shortcut.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat transformDepth</Declaration>
+			
+			
+			<Anchor>//api/name/transformDepth</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/setContentMode:</TokenIdentifier>
+			<Abstract type="html">Wrapper for contentsGravity property.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIViewContentMode contentMode</Declaration>
+			
+			
+			<Anchor>//api/name/contentMode</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/contentMode</TokenIdentifier>
+			<Abstract type="html">Wrapper for contentsGravity property.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIViewContentMode contentMode</Declaration>
+			
+			
+			<Anchor>//api/name/contentMode</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CALayer/contentMode</TokenIdentifier>
+			<Abstract type="html">Wrapper for contentsGravity property.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIViewContentMode contentMode</Declaration>
+			
+			
+			<Anchor>//api/name/contentMode</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/addFadeAnimationWithDuration:curve:</TokenIdentifier>
+			<Abstract type="html">Add a fade animation to layer&apos;s contents when the contents is changed.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)addFadeAnimationWithDuration:(NSTimeInterval)duration curve:(UIViewAnimationCurve)curve</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Animation duration</Abstract>
+				</Parameter><Parameter>
+					<Name>curve</Name>
+					<Abstract type="html">Animation curve.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addFadeAnimationWithDuration:curve:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CALayer/removePreviousFadeAnimation</TokenIdentifier>
+			<Abstract type="html">Cancel fade animation which is added with &quot;-addFadeAnimationWithDuration:curve:&quot;.</Abstract>
+			<DeclaredIn>CALayer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)removePreviousFadeAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/removePreviousFadeAnimation</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

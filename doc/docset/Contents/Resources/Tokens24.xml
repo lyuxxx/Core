@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UITableView+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UITableView(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UITableView.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/updateWithBlock:</TokenIdentifier>
+			<Abstract type="html">Perform a series of method calls that insert, delete, or select rows and
+sections of the receiver.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)updateWithBlock:(void ( ^ ) ( UITableView *tableView ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block combine a series of method calls.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateWithBlock:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/scrollToRow:inSection:atScrollPosition:animated:</TokenIdentifier>
+			<Abstract type="html">Scrolls the receiver until a row or section location on the screen.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToRow:(NSUInteger)row inSection:(NSUInteger)section atScrollPosition:(UITableViewScrollPosition)scrollPosition animated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>row</Name>
+					<Abstract type="html">Row index in section. NSNotFound is a valid value for
+                        scrolling to a section with zero rows.</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">Section index in table.</Abstract>
+				</Parameter><Parameter>
+					<Name>scrollPosition</Name>
+					<Abstract type="html">A constant that identifies a relative position in the
+                        receiving table view (top, middle, bottom) for row when 
+                        scrolling concludes.</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">YES if you want to animate the change in position,
+                        NO if it should be immediate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToRow:inSection:atScrollPosition:animated:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/insertRow:inSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Inserts a row in the receiver with an option to animate the insertion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)insertRow:(NSUInteger)row inSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>row</Name>
+					<Abstract type="html">Row index in section.</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">Section index in table.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that either specifies the kind of animation to
+                   perform when inserting the cell or requests no animation. </Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertRow:inSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/reloadRow:inSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Reloads the specified row using a certain animation effect.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadRow:(NSUInteger)row inSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>row</Name>
+					<Abstract type="html">Row index in section.</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">Section index in table.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the reloading is to be animated,
+                   for example, fade out or slide out from the bottom. The animation 
+                   constant affects the direction in which both the old and the 
+                   new rows slide. For example, if the animation constant is 
+                   UITableViewRowAnimationRight, the old rows slide out to the 
+                   right and the new cells slide in from the right.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadRow:inSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/deleteRow:inSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Deletes the row with an option to animate the deletion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteRow:(NSUInteger)row inSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>row</Name>
+					<Abstract type="html">Row index in section.</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">Section index in table.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the deletion is to be animated,
+                   for example, fade out or slide out from the bottom.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteRow:inSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/insertRowAtIndexPath:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Inserts the row in the receiver at the locations identified by the indexPath,
+with an option to animate the insertion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)insertRowAtIndexPath:(NSIndexPath *)indexPath withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that either specifies the kind of animation to
+                   perform when inserting the cell or requests no animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertRowAtIndexPath:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/reloadRowAtIndexPath:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Reloads the specified row using a certain animation effect.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadRowAtIndexPath:(NSIndexPath *)indexPath withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the reloading is to be animated,
+                  for example, fade out or slide out from the bottom. The animation
+                  constant affects the direction in which both the old and the
+                  new rows slide. For example, if the animation constant is
+                  UITableViewRowAnimationRight, the old rows slide out to the
+                  right and the new cells slide in from the right.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadRowAtIndexPath:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/deleteRowAtIndexPath:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Deletes the row specified by an array of index paths,
+with an option to animate the deletion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteRowAtIndexPath:(NSIndexPath *)indexPath withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">An NSIndexPath object representing a row index and section
+                   index that together identify a row in the table view.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the deletion is to be animated,
+                   for example, fade out or slide out from the bottom.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteRowAtIndexPath:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/insertSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Inserts a section in the receiver, with an option to animate the insertion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)insertSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>section</Name>
+					<Abstract type="html">An index specifies the section to insert in the receiving
+                   table view. If a section already exists at the specified 
+                   index location, it is moved down one index location.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the insertion is to be animated,
+                   for example, fade in or slide in from the left.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/insertSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/deleteSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Deletes a section in the receiver, with an option to animate the deletion.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>section</Name>
+					<Abstract type="html">An index that specifies the sections to delete from the
+                   receiving table view. If a section exists after the specified
+                   index location, it is moved up one index location.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that either specifies the kind of animation to
+                   perform when deleting the section or requests no animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/reloadSection:withRowAnimation:</TokenIdentifier>
+			<Abstract type="html">Reloads the specified section using a given animation effect.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadSection:(NSUInteger)section withRowAnimation:(UITableViewRowAnimation)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>section</Name>
+					<Abstract type="html">An index identifying the section to reload.</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">A constant that indicates how the reloading is to be animated,
+                   for example, fade out or slide out from the bottom. The 
+                   animation constant affects the direction in which both the 
+                   old and the new section rows slide. For example, if the 
+                   animation constant is UITableViewRowAnimationRight, the old 
+                   rows slide out to the right and the new cells slide in from the right.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/reloadSection:withRowAnimation:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITableView/clearSelectedRowsAnimated:</TokenIdentifier>
+			<Abstract type="html">Unselect all rows in tableView.</Abstract>
+			<DeclaredIn>UITableView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)clearSelectedRowsAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">YES to animate the transition, NO to make the transition immediate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clearSelectedRowsAnimated:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

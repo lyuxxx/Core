@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Common tasks for NSObject.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelectorWithArgs:</TokenIdentifier>
+			<Abstract type="html">Sends a specified message to the receiver and returns the result of the message.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)performSelectorWithArgs:(SEL)sel, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Variable parameter list. Parameters type must correspond to the
+               selector&apos;s method declaration, or unexpected results may occur.
+               It doesn&apos;t support union or struct which is larger than 256 bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An object that is the result of the message.</Abstract></ReturnValue>
+			<Anchor>//api/name/performSelectorWithArgs:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelectorWithArgs:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Invokes a method of the receiver on the current thread using the default mode after a delay.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)performSelectorWithArgs:(SEL)sel afterDelay:(NSTimeInterval)delay, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised immediately.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">The minimum time before which the message is sent. Specifying
+               a delay of 0 does not necessarily cause the selector to be
+               performed immediately. The selector is still queued on the
+               thread&apos;s run loop and performed as soon as possible.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Variable parameter list. Parameters type must correspond to the
+               selector&apos;s method declaration, or unexpected results may occur.
+               It doesn&apos;t support union or struct which is larger than 256 bytes.
+
+Sample Code:
+
+     // no variable args
+     [view performSelectorWithArgs:@selector(removeFromSuperView) afterDelay:2.0];
+     
+     // variable arg is not object
+     [view performSelectorWithArgs:@selector(setCenter:), afterDelay:0, CGPointMake(0, 0)];</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performSelectorWithArgs:afterDelay:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelectorWithArgsOnMainThread:waitUntilDone:</TokenIdentifier>
+			<Abstract type="html">Invokes a method of the receiver on the main thread using the default mode.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)performSelectorWithArgsOnMainThread:(SEL)sel waitUntilDone:(BOOL)wait, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</Abstract>
+				</Parameter><Parameter>
+					<Name>wait</Name>
+					<Abstract type="html">A Boolean that specifies whether the current thread blocks until
+               after the specified selector is performed on the receiver on the
+               specified thread. Specify YES to block this thread; otherwise,
+               specify NO to have this method return immediately.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Variable parameter list. Parameters type must correspond to the
+               selector&apos;s method declaration, or unexpected results may occur.
+               It doesn&apos;t support union or struct which is larger than 256 bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">While @a wait is YES, it returns object that is the result of
+               the message. Otherwise return nil;</Abstract></ReturnValue>
+			<Anchor>//api/name/performSelectorWithArgsOnMainThread:waitUntilDone:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelectorWithArgs:onThread:waitUntilDone:</TokenIdentifier>
+			<Abstract type="html">Invokes a method of the receiver on the specified thread using the default mode.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)performSelectorWithArgs:(SEL)sel onThread:(NSThread *)thread waitUntilDone:(BOOL)wait, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</Abstract>
+				</Parameter><Parameter>
+					<Name>thread</Name>
+					<Abstract type="html">The thread on which to execute aSelector.</Abstract>
+				</Parameter><Parameter>
+					<Name>wait</Name>
+					<Abstract type="html">A Boolean that specifies whether the current thread blocks until
+               after the specified selector is performed on the receiver on the
+               specified thread. Specify YES to block this thread; otherwise,
+               specify NO to have this method return immediately.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Variable parameter list. Parameters type must correspond to the
+               selector&apos;s method declaration, or unexpected results may occur.
+               It doesn&apos;t support union or struct which is larger than 256 bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">While @a wait is YES, it returns object that is the result of
+               the message. Otherwise return nil;</Abstract></ReturnValue>
+			<Anchor>//api/name/performSelectorWithArgs:onThread:waitUntilDone:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelectorWithArgsInBackground:</TokenIdentifier>
+			<Abstract type="html">Invokes a method of the receiver on a new background thread.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)performSelectorWithArgsInBackground:(SEL)sel, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector identifying the message to send. If the selector is
+               NULL or unrecognized, an NSInvalidArgumentException is raised.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Variable parameter list. Parameters type must correspond to the
+               selector&apos;s method declaration, or unexpected results may occur.
+               It doesn&apos;t support union or struct which is larger than 256 bytes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performSelectorWithArgsInBackground:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/performSelector:afterDelay:</TokenIdentifier>
+			<Abstract type="html">Invokes a method of the receiver on the current thread after a delay.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)performSelector:(SEL)sel afterDelay:(NSTimeInterval)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sel</Name>
+					<Abstract type="html">A selector that identifies the method to invoke. The method should
+              not have a significant return value and should take no argument.
+              If the selector is NULL or unrecognized,
+              an NSInvalidArgumentException is raised after the delay.</Abstract>
+				</Parameter><Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">The minimum time before which the message is sent. Specifying a
+              delay of 0 does not necessarily cause the selector to be performed
+              immediately. The selector is still queued on the thread&apos;s run loop
+              and performed as soon as possible.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performSelector:afterDelay:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/swizzleInstanceMethod:with:</TokenIdentifier>
+			<Abstract type="html">Swap two instance method&apos;s implementation in one class. Dangerous, be careful.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)swizzleInstanceMethod:(SEL)originalSel with:(SEL)newSel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>originalSel</Name>
+					<Abstract type="html">Selector 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>newSel</Name>
+					<Abstract type="html">Selector 2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if swizzling succeed; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/swizzleInstanceMethod:with:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/swizzleClassMethod:with:</TokenIdentifier>
+			<Abstract type="html">Swap two class method&apos;s implementation in one class. Dangerous, be careful.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)swizzleClassMethod:(SEL)originalSel with:(SEL)newSel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>originalSel</Name>
+					<Abstract type="html">Selector 1.</Abstract>
+				</Parameter><Parameter>
+					<Name>newSel</Name>
+					<Abstract type="html">Selector 2.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if swizzling succeed; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/swizzleClassMethod:with:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/setAssociateValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Associate one object to self, as if it was a strong property (strong, nonatomic).</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)setAssociateValue:(nullable id)value withKey:(void *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The object to associate.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The pointer to get value from self.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAssociateValue:withKey:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/setAssociateWeakValue:withKey:</TokenIdentifier>
+			<Abstract type="html">Associate one object to self, as if it was a weak property (week, nonatomic).</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)setAssociateWeakValue:(nullable id)value withKey:(void *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The object to associate.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The pointer to get value from self.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAssociateWeakValue:withKey:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/getAssociatedValueForKey:</TokenIdentifier>
+			<Abstract type="html">Get the associated value from self.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)getAssociatedValueForKey:(void *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The pointer to get value from self.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getAssociatedValueForKey:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/removeAssociatedValues</TokenIdentifier>
+			<Abstract type="html">Remove all associated values.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAssociatedValues</Declaration>
+			
+			
+			<Anchor>//api/name/removeAssociatedValues</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/className</TokenIdentifier>
+			<Abstract type="html">Returns the class name in NSString.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)className</Declaration>
+			
+			
+			<Anchor>//api/name/className</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/className</TokenIdentifier>
+			<Abstract type="html">Returns the class name in NSString.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)className</Declaration>
+			
+			
+			<Anchor>//api/name/className</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/deepCopy</TokenIdentifier>
+			<Abstract type="html">Returns a copy of the instance with NSKeyedArchiver and NSKeyedUnarchiver.
+Returns nil if an error occurs.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)deepCopy</Declaration>
+			
+			
+			<Anchor>//api/name/deepCopy</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/deepCopyWithArchiver:unarchiver:</TokenIdentifier>
+			<Abstract type="html">Returns a copy of the instance use archiver and unarchiver.
+Returns nil if an error occurs.</Abstract>
+			<DeclaredIn>NSObject+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)deepCopyWithArchiver:(Class)archiver unarchiver:(Class)unarchiver</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>archiver</Name>
+					<Abstract type="html">NSKeyedArchiver class or any class inherited.</Abstract>
+				</Parameter><Parameter>
+					<Name>unarchiver</Name>
+					<Abstract type="html">NSKeyedUnarchiver clsas or any class inherited.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deepCopyWithArchiver:unarchiver:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

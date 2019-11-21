@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide hash, encrypt, encode and some common method for &apos;NSString&apos;.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/md2String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md2 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)md2String</Declaration>
+			
+			
+			<Anchor>//api/name/md2String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/md4String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md4 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)md4String</Declaration>
+			
+			
+			<Anchor>//api/name/md4String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/md5String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md5 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)md5String</Declaration>
+			
+			
+			<Anchor>//api/name/md5String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sha1String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha1 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sha1String</Declaration>
+			
+			
+			<Anchor>//api/name/sha1String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sha224String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha224 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sha224String</Declaration>
+			
+			
+			<Anchor>//api/name/sha224String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sha256String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha256 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sha256String</Declaration>
+			
+			
+			<Anchor>//api/name/sha256String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sha384String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha384 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sha384String</Declaration>
+			
+			
+			<Anchor>//api/name/sha384String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sha512String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha512 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sha512String</Declaration>
+			
+			
+			<Anchor>//api/name/sha512String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacMD5StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm md5 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacMD5StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacMD5StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacSHA1StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha1 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacSHA1StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA1StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacSHA224StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha224 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacSHA224StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA224StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacSHA256StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha256 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacSHA256StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA256StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacSHA384StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha384 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacSHA384StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA384StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/hmacSHA512StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha512 with key.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hmacSHA512StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA512StringWithKey:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/crc32String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for crc32 hash.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)crc32String</Declaration>
+			
+			
+			<Anchor>//api/name/crc32String</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/base64EncodedString</TokenIdentifier>
+			<Abstract type="html">Returns an NSString for base64 encoded.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)base64EncodedString</Declaration>
+			
+			
+			<Anchor>//api/name/base64EncodedString</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringWithBase64EncodedString:</TokenIdentifier>
+			<Abstract type="html">Returns an NSString from base64 encoded string.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSString *)stringWithBase64EncodedString:(NSString *)base64EncodedString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>base64EncodedString</Name>
+					<Abstract type="html">The encoded string.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/stringWithBase64EncodedString:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByURLEncode</TokenIdentifier>
+			<Abstract type="html">URL encode a string in utf-8.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByURLEncode</Declaration>
+			
+			<ReturnValue><Abstract type="html">the encoded string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByURLEncode</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByURLDecode</TokenIdentifier>
+			<Abstract type="html">URL decode a string in utf-8.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByURLDecode</Declaration>
+			
+			<ReturnValue><Abstract type="html">the decoded string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByURLDecode</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByEscapingHTML</TokenIdentifier>
+			<Abstract type="html">Escape commmon HTML to Entity.
+Example: &quot;a&gt;b&quot; will be escape to &quot;a&amp;amp;gt;b&quot;.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByEscapingHTML</Declaration>
+			
+			
+			<Anchor>//api/name/stringByEscapingHTML</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/sizeForFont:size:mode:</TokenIdentifier>
+			<Abstract type="html">Returns the size of the string if it were rendered with the specified constraints.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>font</Name>
+					<Abstract type="html">The font to use for computing the string size.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The maximum acceptable size for the string. This value is
+used to calculate where line breaks and wrapping would occur.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineBreakMode</Name>
+					<Abstract type="html">The line break options for computing the size of the string.
+For a list of possible values, see NSLineBreakMode.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The width and height of the resulting string&apos;s bounding box.
+These values may be rounded up to the nearest whole number.</Abstract></ReturnValue>
+			<Anchor>//api/name/sizeForFont:size:mode:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/widthForFont:</TokenIdentifier>
+			<Abstract type="html">Returns the width of the string if it were to be rendered with the specified
+font on a single line.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)widthForFont:(UIFont *)font</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>font</Name>
+					<Abstract type="html">The font to use for computing the string width.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The width of the resulting string&apos;s bounding box. These values may be
+rounded up to the nearest whole number.</Abstract></ReturnValue>
+			<Anchor>//api/name/widthForFont:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/heightForFont:width:</TokenIdentifier>
+			<Abstract type="html">Returns the height of the string if it were rendered with the specified constraints.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)heightForFont:(UIFont *)font width:(CGFloat)width</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>font</Name>
+					<Abstract type="html">The font to use for computing the string size.</Abstract>
+				</Parameter><Parameter>
+					<Name>width</Name>
+					<Abstract type="html">The maximum acceptable width for the string. This value is used
+to calculate where line breaks and wrapping would occur.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The height of the resulting string&apos;s bounding box. These values
+may be rounded up to the nearest whole number.</Abstract></ReturnValue>
+			<Anchor>//api/name/heightForFont:width:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/matchesRegex:options:</TokenIdentifier>
+			<Abstract type="html">Whether it can match the regular expression</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)matchesRegex:(NSString *)regex options:(NSRegularExpressionOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regex</Name>
+					<Abstract type="html">The regular expression</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The matching options to report.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if can match the regex; otherwise, NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/matchesRegex:options:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/enumerateRegexMatches:options:usingBlock:</TokenIdentifier>
+			<Abstract type="html">Match the regular expression, and executes a given block using each object in the matches.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)enumerateRegexMatches:(NSString *)regex options:(NSRegularExpressionOptions)options usingBlock:(void ( ^ ) ( NSString *match , NSRange matchRange , BOOL *stop ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regex</Name>
+					<Abstract type="html">The regular expression</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The matching options to report.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to apply to elements in the array of matches.
+The block takes four arguments:
+     match: The match substring.
+     matchRange: The matching options.
+     stop: A reference to a Boolean value. The block can set the value
+         to YES to stop further processing of the array. The stop
+         argument is an out-only argument. You should only ever set
+         this Boolean to YES within the Block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enumerateRegexMatches:options:usingBlock:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByReplacingRegex:options:withString:</TokenIdentifier>
+			<Abstract type="html">Returns a new string containing matching regular expressions replaced with the template string.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByReplacingRegex:(NSString *)regex options:(NSRegularExpressionOptions)options withString:(NSString *)replacement</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>regex</Name>
+					<Abstract type="html">The regular expression</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The matching options to report.</Abstract>
+				</Parameter><Parameter>
+					<Name>replacement</Name>
+					<Abstract type="html">The substitution template used when replacing matching instances.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A string with matching regular expressions replaced by the template string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByReplacingRegex:options:withString:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringWithUUID</TokenIdentifier>
+			<Abstract type="html">Returns a new UUID NSString
+e.g. &quot;D1178E50-2A4D-4F1F-9BD3-F6AAB00E06B1&quot;</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringWithUUID</Declaration>
+			
+			
+			<Anchor>//api/name/stringWithUUID</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringWithUTF32Char:</TokenIdentifier>
+			<Abstract type="html">Returns a string containing the characters in a given UTF32Char.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringWithUTF32Char:(UTF32Char)char32</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>char32</Name>
+					<Abstract type="html">A UTF-32 character.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new string, or nil if the character is invalid.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithUTF32Char:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringWithUTF32Chars:length:</TokenIdentifier>
+			<Abstract type="html">Returns a string containing the characters in a given UTF32Char array.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringWithUTF32Chars:(const UTF32Char *)char32 length:(NSUInteger)length</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>char32</Name>
+					<Abstract type="html">An array of UTF-32 character.</Abstract>
+				</Parameter><Parameter>
+					<Name>length</Name>
+					<Abstract type="html">The character count in array.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new string, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithUTF32Chars:length:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/enumerateUTF32CharInRange:usingBlock:</TokenIdentifier>
+			<Abstract type="html">Enumerates the unicode characters (UTF-32) in the specified range of the string.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)enumerateUTF32CharInRange:(NSRange)range usingBlock:(void ( ^ ) ( UTF32Char char32 , NSRange range , BOOL *stop ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">The range within the string to enumerate substrings.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block executed for the enumeration. The block takes four arguments:
+    char32: The unicode character.
+    range: The range in receiver. If the range.length is 1, the character is in BMP;
+        otherwise (range.length is 2) the character is in none-BMP Plane and stored
+        by a surrogate pair in the receiver.
+    stop: A reference to a Boolean value that the block can use to stop the enumeration 
+        by setting stop = YES; it should not touch stop otherwise.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enumerateUTF32CharInRange:usingBlock:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByTrim</TokenIdentifier>
+			<Abstract type="html">Trim blank characters (space and newline) in head and tail.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByTrim</Declaration>
+			
+			<ReturnValue><Abstract type="html">the trimmed string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByTrim</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByAppendingNameScale:</TokenIdentifier>
+			<Abstract type="html">Add scale modifier to the file name (without path extension),
+From @&quot;name&quot; to @&quot;name@2x&quot;.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByAppendingNameScale:(CGFloat)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">Resource scale.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">String by add scale modifier, or just return if it&apos;s not end with file name.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByAppendingNameScale:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByAppendingPathScale:</TokenIdentifier>
+			<Abstract type="html">Add scale modifier to the file path (with path extension),
+From @&quot;name.png&quot; to @&quot;name@2x.png&quot;.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringByAppendingPathScale:(CGFloat)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">Resource scale.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">String by add scale modifier, or just return if it&apos;s not end with file name.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringByAppendingPathScale:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/pathScale</TokenIdentifier>
+			<Abstract type="html">Return the path scale.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)pathScale</Declaration>
+			
+			
+			<Anchor>//api/name/pathScale</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isNotBlank</TokenIdentifier>
+			<Abstract type="html">nil, @&quot;&quot;, @&quot;  &quot;, @&quot;\n&quot; will Returns NO; otherwise Returns YES.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isNotBlank</Declaration>
+			
+			
+			<Anchor>//api/name/isNotBlank</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/containsString:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the target string is contained within the receiver.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)containsString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">A string to test the the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/containsString:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/containsCharacterSet:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the target CharacterSet is contained within the receiver.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)containsCharacterSet:(NSCharacterSet *)set</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>set</Name>
+					<Abstract type="html">A character set to test the the receiver.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/containsCharacterSet:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/numberValue</TokenIdentifier>
+			<Abstract type="html">Try to parse this string and returns an NSNumber.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)numberValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns an NSNumber if parse succeed, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberValue</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/dataValue</TokenIdentifier>
+			<Abstract type="html">Returns an NSData using UTF-8 encoding.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)dataValue</Declaration>
+			
+			
+			<Anchor>//api/name/dataValue</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/rangeOfAll</TokenIdentifier>
+			<Abstract type="html">Returns NSMakeRange(0, self.length).</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSRange)rangeOfAll</Declaration>
+			
+			
+			<Anchor>//api/name/rangeOfAll</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/jsonValueDecoded</TokenIdentifier>
+			<Abstract type="html">Returns an NSDictionary/NSArray which is decoded from receiver.
+Returns nil if an error occurs.</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (id)jsonValueDecoded</Declaration>
+			
+			
+			<Anchor>//api/name/jsonValueDecoded</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringNamed:</TokenIdentifier>
+			<Abstract type="html">Create a string from the file in main bundle (similar to [UIImage imageNamed:]).</Abstract>
+			<DeclaredIn>NSString+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringNamed:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The file name (in main bundle).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new string create from the file in UTF-8 character encoding.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringNamed:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

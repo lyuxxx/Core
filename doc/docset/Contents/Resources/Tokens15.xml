@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIBarButtonItem+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIBarButtonItem(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIBarButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIBarButtonItem/setActionBlock:</TokenIdentifier>
+			<Abstract type="html">The block that invoked when the item is selected. The objects captured by block
+will retained by the ButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, copy) void ( ^ ) ( id ) actionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actionBlock</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIBarButtonItem/actionBlock</TokenIdentifier>
+			<Abstract type="html">The block that invoked when the item is selected. The objects captured by block
+will retained by the ButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, copy) void ( ^ ) ( id ) actionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actionBlock</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIBarButtonItem/actionBlock</TokenIdentifier>
+			<Abstract type="html">The block that invoked when the item is selected. The objects captured by block
+will retained by the ButtonItem.</Abstract>
+			<DeclaredIn>UIBarButtonItem+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, copy) void ( ^ ) ( id ) actionBlock</Declaration>
+			
+			
+			<Anchor>//api/name/actionBlock</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

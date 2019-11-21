@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIScreen+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIScreen(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIScreen.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/screenScale</TokenIdentifier>
+			<Abstract type="html">Main screen&apos;s scale</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (CGFloat)screenScale</Declaration>
+			
+			<ReturnValue><Abstract type="html">screen&apos;s scale</Abstract></ReturnValue>
+			<Anchor>//api/name/screenScale</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/currentBounds</TokenIdentifier>
+			<Abstract type="html">Returns the bounds of the screen for the current device orientation.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UIScreen/boundsForOrientation:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CGRect)currentBounds</Declaration>
+			
+			<ReturnValue><Abstract type="html">A rect indicating the bounds of the screen.</Abstract></ReturnValue>
+			<Anchor>//api/name/currentBounds</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/boundsForOrientation:</TokenIdentifier>
+			<Abstract type="html">Returns the bounds of the screen for a given device orientation.
+UIScreen&apos;s bounds method always returns the bounds of the
+screen of it in the portrait orientation.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/UIScreen/currentBounds</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (CGRect)boundsForOrientation:(UIInterfaceOrientation)orientation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>orientation</Name>
+					<Abstract type="html">The orientation to get the screen&apos;s bounds.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A rect indicating the bounds of the screen.</Abstract></ReturnValue>
+			<Anchor>//api/name/boundsForOrientation:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/setSizeInPixel:</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s real size in pixel (width is always smaller than height).
+This value may not be very accurate in an unknown device, or simulator.
+e.g. (768,1024)</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize sizeInPixel</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixel</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/sizeInPixel</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s real size in pixel (width is always smaller than height).
+This value may not be very accurate in an unknown device, or simulator.
+e.g. (768,1024)</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize sizeInPixel</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixel</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIScreen/sizeInPixel</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s real size in pixel (width is always smaller than height).
+This value may not be very accurate in an unknown device, or simulator.
+e.g. (768,1024)</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize sizeInPixel</Declaration>
+			
+			
+			<Anchor>//api/name/sizeInPixel</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/setPixelsPerInch:</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s PPI.
+This value may not be very accurate in an unknown device, or simulator.
+Default value is 96.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat pixelsPerInch</Declaration>
+			
+			
+			<Anchor>//api/name/pixelsPerInch</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScreen/pixelsPerInch</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s PPI.
+This value may not be very accurate in an unknown device, or simulator.
+Default value is 96.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat pixelsPerInch</Declaration>
+			
+			
+			<Anchor>//api/name/pixelsPerInch</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIScreen/pixelsPerInch</TokenIdentifier>
+			<Abstract type="html">The screen&apos;s PPI.
+This value may not be very accurate in an unknown device, or simulator.
+Default value is 96.</Abstract>
+			<DeclaredIn>UIScreen+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat pixelsPerInch</Declaration>
+			
+			
+			<Anchor>//api/name/pixelsPerInch</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

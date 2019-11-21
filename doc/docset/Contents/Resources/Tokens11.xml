@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+YYAddForKVO.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(YYAddForKVO)</TokenIdentifier>
+			<Abstract type="html">Observer with block (KVO).</Abstract>
+			<DeclaredIn>NSObject+YYAddForKVO.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/addObserverBlockForKeyPath:block:</TokenIdentifier>
+			<Abstract type="html">Registers a block to receive KVO notifications for the specified key-path
+relative to the receiver.</Abstract>
+			<DeclaredIn>NSObject+YYAddForKVO.h</DeclaredIn>
+			
+			<Declaration>- (void)addObserverBlockForKeyPath:(NSString *)keyPath block:(void ( ^ ) ( id _Nonnull obj , id _Nonnull oldVal , id _Nonnull newVal ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The key path, relative to the receiver, of the property to
+observe. This value must not be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to register for KVO notifications.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addObserverBlockForKeyPath:block:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/removeObserverBlocksForKeyPath:</TokenIdentifier>
+			<Abstract type="html">Stops all blocks (associated by addObserverBlockForKeyPath:block: from
+receiving change notifications for the property specified by a given key-path
+relative to the receiver, and release these blocks.</Abstract>
+			<DeclaredIn>NSObject+YYAddForKVO.h</DeclaredIn>
+			
+			<Declaration>- (void)removeObserverBlocksForKeyPath:(NSString *)keyPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">A key-path, relative to the receiver, for which blocks is
+registered to receive KVO change notifications.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeObserverBlocksForKeyPath:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/removeObserverBlocks</TokenIdentifier>
+			<Abstract type="html">Stops all blocks (associated by addObserverBlockForKeyPath:block: from
+receiving change notifications, and release these blocks.</Abstract>
+			<DeclaredIn>NSObject+YYAddForKVO.h</DeclaredIn>
+			
+			<Declaration>- (void)removeObserverBlocks</Declaration>
+			
+			
+			<Anchor>//api/name/removeObserverBlocks</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

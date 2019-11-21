@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIFont+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIFont(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIFont.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/set_0:</TokenIdentifier>
+			<Abstract type="html">Whether the font is bold.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isBold NS_AVAILABLE_IOS ( 7 _0</Declaration>
+			
+			
+			<Anchor>//api/name/_0</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/_0</TokenIdentifier>
+			<Abstract type="html">Whether the font is bold.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isBold NS_AVAILABLE_IOS ( 7 _0</Declaration>
+			
+			
+			<Anchor>//api/name/_0</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIFont/_0</TokenIdentifier>
+			<Abstract type="html">Whether the font is bold.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isBold NS_AVAILABLE_IOS ( 7 _0</Declaration>
+			
+			
+			<Anchor>//api/name/_0</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithBold</TokenIdentifier>
+			<Abstract type="html">Create a bold font from receiver.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIFont *)fontWithBold</Declaration>
+			
+			<ReturnValue><Abstract type="html">A bold font, or nil if failed.</Abstract></ReturnValue>
+			<Anchor>//api/name/fontWithBold</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithItalic</TokenIdentifier>
+			<Abstract type="html">Create a italic font from receiver.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIFont *)fontWithItalic</Declaration>
+			
+			<ReturnValue><Abstract type="html">A italic font, or nil if failed.</Abstract></ReturnValue>
+			<Anchor>//api/name/fontWithItalic</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithBoldItalic</TokenIdentifier>
+			<Abstract type="html">Create a bold and italic font from receiver.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIFont *)fontWithBoldItalic</Declaration>
+			
+			<ReturnValue><Abstract type="html">A bold and italic font, or nil if failed.</Abstract></ReturnValue>
+			<Anchor>//api/name/fontWithBoldItalic</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithNormal</TokenIdentifier>
+			<Abstract type="html">Create a normal (no bold/italic/...) font from receiver.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIFont *)fontWithNormal</Declaration>
+			
+			<ReturnValue><Abstract type="html">A normal font, or nil if failed.</Abstract></ReturnValue>
+			<Anchor>//api/name/fontWithNormal</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithCTFont:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a font object for the specified CTFontRef.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIFont *)fontWithCTFont:(CTFontRef)CTFont</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>CTFont</Name>
+					<Abstract type="html">CoreText font.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fontWithCTFont:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/fontWithCGFont:size:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a font object for the specified CGFontRef and size.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIFont *)fontWithCGFont:(CGFontRef)CGFont size:(CGFloat)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>CGFont</Name>
+					<Abstract type="html">CoreGraphic font.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Font size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fontWithCGFont:size:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/CTFontRef</TokenIdentifier>
+			<Abstract type="html">Creates and returns the CTFontRef object. (need call CFRelease() after used)</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable CTFontRef)CTFontRef</Declaration>
+			
+			
+			<Anchor>//api/name/CTFontRef</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/CGFontRef</TokenIdentifier>
+			<Abstract type="html">Creates and returns the CGFontRef object. (need call CFRelease() after used)</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable CGFontRef)CGFontRef</Declaration>
+			
+			
+			<Anchor>//api/name/CGFontRef</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/loadFontFromPath:</TokenIdentifier>
+			<Abstract type="html">Load the font from file path. Support format:TTF,OTF.
+If return YES, font can be load use it PostScript Name: [UIFont fontWithName:...]</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)loadFontFromPath:(NSString *)path</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">font file&apos;s full path</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadFontFromPath:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/unloadFontFromPath:</TokenIdentifier>
+			<Abstract type="html">Unload font from file path.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (void)unloadFontFromPath:(NSString *)path</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>path</Name>
+					<Abstract type="html">font file&apos;s full path</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unloadFontFromPath:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/loadFontFromData:</TokenIdentifier>
+			<Abstract type="html">Load the font from data. Support format:TTF,OTF.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIFont *)loadFontFromData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">Font data.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">UIFont object if load succeed, otherwise nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/loadFontFromData:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/unloadFontFromData:</TokenIdentifier>
+			<Abstract type="html">Unload font which is loaded by loadFontFromData: function.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)unloadFontFromData:(UIFont *)font</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>font</Name>
+					<Abstract type="html">the font loaded by loadFontFromData: function</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if succeed, otherwise NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/unloadFontFromData:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/dataFromFont:</TokenIdentifier>
+			<Abstract type="html">Serialize and return the font data.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSData *)dataFromFont:(UIFont *)font</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>font</Name>
+					<Abstract type="html">The font.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">data in TTF, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataFromFont:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIFont/dataFromCGFont:</TokenIdentifier>
+			<Abstract type="html">Serialize and return the font data.</Abstract>
+			<DeclaredIn>UIFont+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSData *)dataFromCGFont:(CGFontRef)cgFont</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cgFont</Name>
+					<Abstract type="html">The font.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">data in TTF, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataFromCGFont:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

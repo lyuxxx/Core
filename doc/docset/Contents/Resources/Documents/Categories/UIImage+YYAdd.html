@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>UIImage(YYAdd) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">base </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">China Software Cloud</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/imageWithColor:">+ imageWithColor:</option>
+		
+		<option value="//api/name/imageWithColor:size:">+ imageWithColor:size:</option>
+		
+		<option value="//api/name/imageWithEmoji:size:">+ imageWithEmoji:size:</option>
+		
+		<option value="//api/name/imageWithPDF:">+ imageWithPDF:</option>
+		
+		<option value="//api/name/imageWithPDF:size:">+ imageWithPDF:size:</option>
+		
+		<option value="//api/name/imageWithSize:drawBlock:">+ imageWithSize:drawBlock:</option>
+		
+		<option value="//api/name/imageWithSmallGIFData:scale:">+ imageWithSmallGIFData:scale:</option>
+		
+		<option value="//api/name/isAnimatedGIFData:">+ isAnimatedGIFData:</option>
+		
+		<option value="//api/name/isAnimatedGIFFile:">+ isAnimatedGIFFile:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/drawInRect:withContentMode:clipsToBounds:">- drawInRect:withContentMode:clipsToBounds:</option>
+		
+		<option value="//api/name/hasAlphaChannel">- hasAlphaChannel</option>
+		
+		<option value="//api/name/imageByBlurDark">- imageByBlurDark</option>
+		
+		<option value="//api/name/imageByBlurExtraLight">- imageByBlurExtraLight</option>
+		
+		<option value="//api/name/imageByBlurLight">- imageByBlurLight</option>
+		
+		<option value="//api/name/imageByBlurRadius:tintColor:tintMode:saturation:maskImage:">- imageByBlurRadius:tintColor:tintMode:saturation:maskImage:</option>
+		
+		<option value="//api/name/imageByBlurSoft">- imageByBlurSoft</option>
+		
+		<option value="//api/name/imageByBlurWithTint:">- imageByBlurWithTint:</option>
+		
+		<option value="//api/name/imageByCropToRect:">- imageByCropToRect:</option>
+		
+		<option value="//api/name/imageByFlipHorizontal">- imageByFlipHorizontal</option>
+		
+		<option value="//api/name/imageByFlipVertical">- imageByFlipVertical</option>
+		
+		<option value="//api/name/imageByGrayscale">- imageByGrayscale</option>
+		
+		<option value="//api/name/imageByInsetEdge:withColor:">- imageByInsetEdge:withColor:</option>
+		
+		<option value="//api/name/imageByResizeToSize:">- imageByResizeToSize:</option>
+		
+		<option value="//api/name/imageByResizeToSize:contentMode:">- imageByResizeToSize:contentMode:</option>
+		
+		<option value="//api/name/imageByRotate180">- imageByRotate180</option>
+		
+		<option value="//api/name/imageByRotate:fitSize:">- imageByRotate:fitSize:</option>
+		
+		<option value="//api/name/imageByRotateLeft90">- imageByRotateLeft90</option>
+		
+		<option value="//api/name/imageByRotateRight90">- imageByRotateRight90</option>
+		
+		<option value="//api/name/imageByRoundCornerRadius:">- imageByRoundCornerRadius:</option>
+		
+		<option value="//api/name/imageByRoundCornerRadius:borderWidth:borderColor:">- imageByRoundCornerRadius:borderWidth:borderColor:</option>
+		
+		<option value="//api/name/imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:">- imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:</option>
+		
+		<option value="//api/name/imageByTintColor:">- imageByTintColor:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">UIImage(YYAdd) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>UIImage+YYAdd.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Provide some commen method for <code>UIImage</code>.
+Image process is based on CoreGraphic and vImage.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Create image" name="task_Create image"></a>
+						<h2 class="task-title">Create image</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/imageWithSmallGIFData:scale:" title="imageWithSmallGIFData:scale:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithSmallGIFData:scale:">+&nbsp;imageWithSmallGIFData:scale:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create an animated image with GIF data. After created, you can access
+the images via property &lsquo;.images&rsquo;. If the data is not animated gif, this
+function is same as [UIImage imageWithData:data scale:scale];</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithSmallGIFData:(NSData *)<em>data</em> scale:(CGFloat)<em>scale</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>GIF data.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scale</code></th>
+						<td><p>The scale factor</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A new image created from GIF, or nil when an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It has a better display performance, but costs more memory
+                 (width * height * frames Bytes). It only suited to display small
+                 gif such as animated emoji. If you want to display large gif,
+                 see <code>YYImage</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isAnimatedGIFData:" title="isAnimatedGIFData:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isAnimatedGIFData:">+&nbsp;isAnimatedGIFData:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether the data is animated GIF.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isAnimatedGIFData:(NSData *)<em>data</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>Image data</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Returns YES only if the data is gif and contains more than one frame,
+         otherwise returns NO.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isAnimatedGIFFile:" title="isAnimatedGIFFile:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isAnimatedGIFFile:">+&nbsp;isAnimatedGIFFile:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether the file in the specified path is GIF.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isAnimatedGIFFile:(NSString *)<em>path</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>path</code></th>
+						<td><p>An absolute file path.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Returns YES if the file is gif, otherwise returns NO.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithPDF:" title="imageWithPDF:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithPDF:">+&nbsp;imageWithPDF:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create an image from a PDF file data or path.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithPDF:(id)<em>dataOrPath</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dataOrPath</code></th>
+						<td><p>PDF data in <code>NSData</code>, or PDF file path in <code>NSString</code>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A new image create from PDF, or nil when an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If the PDF has multiple page, is just return&rsquo;s the first page&rsquo;s
+content. Image&rsquo;s scale is equal to current screen&rsquo;s scale, size is same as
+PDF&rsquo;s origin size.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithPDF:size:" title="imageWithPDF:size:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithPDF:size:">+&nbsp;imageWithPDF:size:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create an image from a PDF file data or path.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithPDF:(id)<em>dataOrPath</em> size:(CGSize)<em>size</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>dataOrPath</code></th>
+						<td><p>PDF data in <code>NSData</code>, or PDF file path in <code>NSString</code>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>The new image&rsquo;s size, PDF&rsquo;s content will be stretched as needed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A new image create from PDF, or nil when an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If the PDF has multiple page, is just return&rsquo;s the first page&rsquo;s
+content. Image&rsquo;s scale is equal to current screen&rsquo;s scale.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithEmoji:size:" title="imageWithEmoji:size:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithEmoji:size:">+&nbsp;imageWithEmoji:size:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create a square image from apple emoji.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithEmoji:(NSString *)<em>emoji</em> size:(CGFloat)<em>size</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>emoji</code></th>
+						<td><p>single emoji, such as @&ldquo;😄&rdquo;.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>image&rsquo;s size.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Image from emoji, or nil when an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It creates a square image from apple emoji, image&rsquo;s scale is equal
+to current screen&rsquo;s scale. The original emoji image in <code>AppleColorEmoji</code> font
+is in size 160*160 px.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithColor:" title="imageWithColor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithColor:">+&nbsp;imageWithColor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create and return a 1x1 point size image with the given color.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithColor:(UIColor *)<em>color</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>color</code></th>
+						<td><p>The color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithColor:size:" title="imageWithColor:size:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithColor:size:">+&nbsp;imageWithColor:size:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create and return a pure color image with the given color and size.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithColor:(UIColor *)<em>color</em> size:(CGSize)<em>size</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>color</code></th>
+						<td><p>The color.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>New image&rsquo;s type.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageWithSize:drawBlock:" title="imageWithSize:drawBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageWithSize:drawBlock:">+&nbsp;imageWithSize:drawBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create and return an image with custom draw code.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIImage *)imageWithSize:(CGSize)<em>size</em> drawBlock:(void ( ^ ) ( CGContextRef context ))<em>drawBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>The image size.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>drawBlock</code></th>
+						<td><p>The draw block.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The new image.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Image Info" name="task_Image Info"></a>
+						<h2 class="task-title">Image Info</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/hasAlphaChannel" title="hasAlphaChannel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasAlphaChannel">&ndash;&nbsp;hasAlphaChannel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether this image has alpha channel.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)hasAlphaChannel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Modify Image" name="task_Modify Image"></a>
+						<h2 class="task-title">Modify Image</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/drawInRect:withContentMode:clipsToBounds:" title="drawInRect:withContentMode:clipsToBounds:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/drawInRect:withContentMode:clipsToBounds:">&ndash;&nbsp;drawInRect:withContentMode:clipsToBounds:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Draws the entire image in the specified rectangle, content changed with
+the contentMode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)drawInRect:(CGRect)<em>rect</em> withContentMode:(UIViewContentMode)<em>contentMode</em> clipsToBounds:(BOOL)<em>clips</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rect</code></th>
+						<td><p>The rectangle in which to draw the image.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentMode</code></th>
+						<td><p>Draw content mode</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>clips</code></th>
+						<td><p>A Boolean value that determines whether content are confined to the rect.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method draws the entire image in the current graphics context,
+respecting the image&rsquo;s orientation setting. In the default coordinate system,
+images are situated down and to the right of the origin of the specified
+rectangle. This method respects any transforms applied to the current graphics
+context, however.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByResizeToSize:" title="imageByResizeToSize:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByResizeToSize:">&ndash;&nbsp;imageByResizeToSize:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image which is scaled from this image.
+The image will be stretched as needed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByResizeToSize:(CGSize)<em>size</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>The new size to be scaled, values should be positive.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The new image with the given size.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByResizeToSize:contentMode:" title="imageByResizeToSize:contentMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByResizeToSize:contentMode:">&ndash;&nbsp;imageByResizeToSize:contentMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image which is scaled from this image.
+The image content will be changed with thencontentMode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByResizeToSize:(CGSize)<em>size</em> contentMode:(UIViewContentMode)<em>contentMode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>The new size to be scaled, values should be positive.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contentMode</code></th>
+						<td><p>The content mode for image content.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The new image with the given size.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByCropToRect:" title="imageByCropToRect:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByCropToRect:">&ndash;&nbsp;imageByCropToRect:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image which is cropped from this image.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByCropToRect:(CGRect)<em>rect</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rect</code></th>
+						<td><p>Image&rsquo;s inner rect.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The new image, or nil if an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByInsetEdge:withColor:" title="imageByInsetEdge:withColor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByInsetEdge:withColor:">&ndash;&nbsp;imageByInsetEdge:withColor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image which is edge inset from this image.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByInsetEdge:(UIEdgeInsets)<em>insets</em> withColor:(nullable UIColor *)<em>color</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>insets</code></th>
+						<td><p>Inset (positive) for each of the edges, values can be negative to &lsquo;outset&rsquo;.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>color</code></th>
+						<td><p>Extend edge&rsquo;s fill color, nil means clear color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The new image, or nil if an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRoundCornerRadius:" title="imageByRoundCornerRadius:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRoundCornerRadius:">&ndash;&nbsp;imageByRoundCornerRadius:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rounds a new image with a given corner size.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)<em>radius</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>radius</code></th>
+						<td><p>The radius of each corner oval. Values larger than half the
+rectangle&rsquo;s width or height are clamped appropriately to half
+the width or height.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRoundCornerRadius:borderWidth:borderColor:" title="imageByRoundCornerRadius:borderWidth:borderColor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRoundCornerRadius:borderWidth:borderColor:">&ndash;&nbsp;imageByRoundCornerRadius:borderWidth:borderColor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rounds a new image with a given corner size.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)<em>radius</em> borderWidth:(CGFloat)<em>borderWidth</em> borderColor:(nullable UIColor *)<em>borderColor</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>radius</code></th>
+						<td><p>The radius of each corner oval. Values larger than half the
+                     rectangle&rsquo;s width or height are clamped appropriately to
+                     half the width or height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>borderWidth</code></th>
+						<td><p>The inset border line width. Values larger than half the rectangle&rsquo;s
+                     width or height are clamped appropriately to half the width
+                     or height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>borderColor</code></th>
+						<td><p>The border stroke color. nil means clear color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:" title="imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:">&ndash;&nbsp;imageByRoundCornerRadius:corners:borderWidth:borderColor:borderLineJoin:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rounds a new image with a given corner size.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRoundCornerRadius:(CGFloat)<em>radius</em> corners:(UIRectCorner)<em>corners</em> borderWidth:(CGFloat)<em>borderWidth</em> borderColor:(nullable UIColor *)<em>borderColor</em> borderLineJoin:(CGLineJoin)<em>borderLineJoin</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>radius</code></th>
+						<td><p>The radius of each corner oval. Values larger than half the
+                     rectangle&rsquo;s width or height are clamped appropriately to
+                     half the width or height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>corners</code></th>
+						<td><p>A bitmask value that identifies the corners that you want
+                     rounded. You can use this parameter to round only a subset
+                     of the corners of the rectangle.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>borderWidth</code></th>
+						<td><p>The inset border line width. Values larger than half the rectangle&rsquo;s
+                     width or height are clamped appropriately to half the width
+                     or height.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>borderColor</code></th>
+						<td><p>The border stroke color. nil means clear color.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>borderLineJoin</code></th>
+						<td><p>The border line join.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRotate:fitSize:" title="imageByRotate:fitSize:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRotate:fitSize:">&ndash;&nbsp;imageByRotate:fitSize:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new rotated image (relative to the center).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRotate:(CGFloat)<em>radians</em> fitSize:(BOOL)<em>fitSize</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>radians</code></th>
+						<td><p>Rotated radians in counterclockwise.⟲</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>fitSize</code></th>
+						<td><p>YES: new image&rsquo;s size is extend to fit all content.
+                  NO: image&rsquo;s size will not change, content may be clipped.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRotateLeft90" title="imageByRotateLeft90"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRotateLeft90">&ndash;&nbsp;imageByRotateLeft90</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image rotated counterclockwise by a quarter‑turn (90°). ⤺
+The width and height will be exchanged.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRotateLeft90</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRotateRight90" title="imageByRotateRight90"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRotateRight90">&ndash;&nbsp;imageByRotateRight90</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image rotated clockwise by a quarter‑turn (90°). ⤼
+The width and height will be exchanged.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRotateRight90</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByRotate180" title="imageByRotate180"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByRotate180">&ndash;&nbsp;imageByRotate180</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new image rotated 180° . ↻</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByRotate180</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByFlipVertical" title="imageByFlipVertical"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByFlipVertical">&ndash;&nbsp;imageByFlipVertical</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a vertically flipped image. ⥯</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByFlipVertical</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByFlipHorizontal" title="imageByFlipHorizontal"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByFlipHorizontal">&ndash;&nbsp;imageByFlipHorizontal</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a horizontally flipped image. ⇋</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByFlipHorizontal</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Image Effect" name="task_Image Effect"></a>
+						<h2 class="task-title">Image Effect</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/imageByTintColor:" title="imageByTintColor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByTintColor:">&ndash;&nbsp;imageByTintColor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tint the image in alpha channel with the given color.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByTintColor:(UIColor *)<em>color</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>color</code></th>
+						<td><p>The color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByGrayscale" title="imageByGrayscale"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByGrayscale">&ndash;&nbsp;imageByGrayscale</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a grayscaled image.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByGrayscale</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurSoft" title="imageByBlurSoft"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurSoft">&ndash;&nbsp;imageByBlurSoft</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur effect to this image. Suitable for blur any content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurSoft</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurLight" title="imageByBlurLight"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurLight">&ndash;&nbsp;imageByBlurLight</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur effect to this image. Suitable for blur any content except pure white.
+(same as iOS Control Panel)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurLight</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurExtraLight" title="imageByBlurExtraLight"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurExtraLight">&ndash;&nbsp;imageByBlurExtraLight</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur effect to this image. Suitable for displaying black text.
+(same as iOS Navigation Bar White)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurExtraLight</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurDark" title="imageByBlurDark"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurDark">&ndash;&nbsp;imageByBlurDark</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur effect to this image. Suitable for displaying white text.
+(same as iOS Notification Center)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurDark</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurWithTint:" title="imageByBlurWithTint:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurWithTint:">&ndash;&nbsp;imageByBlurWithTint:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur and tint color to this image.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurWithTint:(UIColor *)<em>tintColor</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tintColor</code></th>
+						<td><p>The tint color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/imageByBlurRadius:tintColor:tintMode:saturation:maskImage:" title="imageByBlurRadius:tintColor:tintMode:saturation:maskImage:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/imageByBlurRadius:tintColor:tintMode:saturation:maskImage:">&ndash;&nbsp;imageByBlurRadius:tintColor:tintMode:saturation:maskImage:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Applies a blur, tint color, and saturation adjustment to this image,
+optionally within the area specified by @a maskImage.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable UIImage *)imageByBlurRadius:(CGFloat)<em>blurRadius</em> tintColor:(nullable UIColor *)<em>tintColor</em> tintMode:(CGBlendMode)<em>tintBlendMode</em> saturation:(CGFloat)<em>saturation</em> maskImage:(nullable UIImage *)<em>maskImage</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>blurRadius</code></th>
+						<td><p>The radius of the blur in points, 0 means no blur effect.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tintColor</code></th>
+						<td><p>An optional UIColor object that is uniformly blended with
+                       the result of the blur and saturation operations. The
+                       alpha channel of this color determines how strong the
+                       tint is. nil means no tint.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tintBlendMode</code></th>
+						<td><p>The @a tintColor blend mode. Default is kCGBlendModeNormal (0).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>saturation</code></th>
+						<td><p>A value of 1.0 produces no change in the resulting image.
+                       Values less than 1.0 will desaturation the resulting image
+                       while values greater than 1.0 will have the opposite effect.
+                       0 means gray scale.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>maskImage</code></th>
+						<td><p>If specified, @a inputImage is only modified in the area(s)
+                       defined by this mask.  This must be an image mask or it
+                       must meet the requirements of the mask parameter of
+                       CGContextClipToMask.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>image with effect, or nil if an error occurs (e.g. no
+                       enough memory).</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIImage+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 China Software Cloud. All rights reserved. Updated: 2019-09-12</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

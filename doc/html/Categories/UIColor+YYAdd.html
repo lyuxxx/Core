@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>UIColor(YYAdd) Category Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">base </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">China Software Cloud</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/alpha">alpha</option>
+		
+		<option value="//api/name/blue">blue</option>
+		
+		<option value="//api/name/brightness">brightness</option>
+		
+		<option value="//api/name/colorSpaceModel">colorSpaceModel</option>
+		
+		<option value="//api/name/colorSpaceString">colorSpaceString</option>
+		
+		<option value="//api/name/green">green</option>
+		
+		<option value="//api/name/hue">hue</option>
+		
+		<option value="//api/name/red">red</option>
+		
+		<option value="//api/name/saturation">saturation</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/colorWithCyan:magenta:yellow:black:alpha:">+ colorWithCyan:magenta:yellow:black:alpha:</option>
+		
+		<option value="//api/name/colorWithHexString:">+ colorWithHexString:</option>
+		
+		<option value="//api/name/colorWithHue:saturation:lightness:alpha:">+ colorWithHue:saturation:lightness:alpha:</option>
+		
+		<option value="//api/name/colorWithRGB:">+ colorWithRGB:</option>
+		
+		<option value="//api/name/colorWithRGB:alpha:">+ colorWithRGB:alpha:</option>
+		
+		<option value="//api/name/colorWithRGBA:">+ colorWithRGBA:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/colorByAddColor:blendMode:">- colorByAddColor:blendMode:</option>
+		
+		<option value="//api/name/colorByChangeHue:saturation:brightness:alpha:">- colorByChangeHue:saturation:brightness:alpha:</option>
+		
+		<option value="//api/name/getCyan:magenta:yellow:black:alpha:">- getCyan:magenta:yellow:black:alpha:</option>
+		
+		<option value="//api/name/getHue:saturation:lightness:alpha:">- getHue:saturation:lightness:alpha:</option>
+		
+		<option value="//api/name/hexString">- hexString</option>
+		
+		<option value="//api/name/hexStringWithAlpha">- hexStringWithAlpha</option>
+		
+		<option value="//api/name/rgbValue">- rgbValue</option>
+		
+		<option value="//api/name/rgbaValue">- rgbaValue</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">UIColor(YYAdd) Category Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>UIColor+YYAdd.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Provide some method for <code>UIColor</code> to convert color between
+RGB,HSB,HSL,CMYK and Hex.</p>
+
+<table>
+<thead>
+<tr>
+<th> Color space </th>
+<th> Meaning                                </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> RGB *       </td>
+<td> Red, Green, Blue                       </td>
+</tr>
+<tr>
+<td> HSB(HSV) *  </td>
+<td> Hue, Saturation, Brightness (Value)    </td>
+</tr>
+<tr>
+<td> HSL         </td>
+<td> Hue, Saturation, Lightness             </td>
+</tr>
+<tr>
+<td> CMYK        </td>
+<td> Cyan, Magenta, Yellow, Black           </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Apple use RGB &amp; HSB default.</p>
+
+<p>All the value in this category is float number in the range <code>0.0</code> to <code>1.0</code>.
+Values below <code>0.0</code> are interpreted as <code>0.0</code>,
+and values above <code>1.0</code> are interpreted as <code>1.0</code>.</p>
+
+<p>If you want convert color between more color space (CIEXYZ,Lab,YUV&hellip;),
+see <a href="https://github.com/ibireme/yy">https://github.com/ibireme/yy</a>_color_convertor</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Creating a UIColor Object" name="task_Creating a UIColor Object"></a>
+						<h2 class="task-title">Creating a UIColor Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/colorWithHue:saturation:lightness:alpha:" title="colorWithHue:saturation:lightness:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithHue:saturation:lightness:alpha:">+&nbsp;colorWithHue:saturation:lightness:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object using the specified opacity
+and HSL color space component values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIColor *)colorWithHue:(CGFloat)<em>hue</em> saturation:(CGFloat)<em>saturation</em> lightness:(CGFloat)<em>lightness</em> alpha:(CGFloat)<em>alpha</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hue</code></th>
+						<td><p>The <a href="#//api/name/hue">hue</a> component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>saturation</code></th>
+						<td><p>The <a href="#//api/name/saturation">saturation</a> component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>lightness</code></th>
+						<td><p>The lightness component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>The opacity value of the color object,
+                   specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color object. The color information represented by this
+                   object is in the device RGB colorspace.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWithCyan:magenta:yellow:black:alpha:" title="colorWithCyan:magenta:yellow:black:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithCyan:magenta:yellow:black:alpha:">+&nbsp;colorWithCyan:magenta:yellow:black:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object using the specified opacity
+and CMYK color space component values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIColor *)colorWithCyan:(CGFloat)<em>cyan</em> magenta:(CGFloat)<em>magenta</em> yellow:(CGFloat)<em>yellow</em> black:(CGFloat)<em>black</em> alpha:(CGFloat)<em>alpha</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cyan</code></th>
+						<td><p>The cyan component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>magenta</code></th>
+						<td><p>The magenta component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>yellow</code></th>
+						<td><p>The yellow component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>black</code></th>
+						<td><p>The black component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>The opacity value of the color object,
+                specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color object. The color information represented by this
+                object is in the device RGB colorspace.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWithRGB:" title="colorWithRGB:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithRGB:">+&nbsp;colorWithRGB:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object using the hex RGB color values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIColor *)colorWithRGB:(uint32_t)<em>rgbValue</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rgbValue</code></th>
+						<td><p>The rgb value such as 0x66ccff.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color object. The color information represented by this
+                  object is in the device RGB colorspace.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWithRGBA:" title="colorWithRGBA:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithRGBA:">+&nbsp;colorWithRGBA:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object using the hex RGBA color values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIColor *)colorWithRGBA:(uint32_t)<em>rgbaValue</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rgbaValue</code></th>
+						<td><p>The rgb value such as 0x66ccffff.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color object. The color information represented by this
+                   object is in the device RGB colorspace.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWithRGB:alpha:" title="colorWithRGB:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithRGB:alpha:">+&nbsp;colorWithRGB:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object using the specified opacity and RGB hex value.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (UIColor *)colorWithRGB:(uint32_t)<em>rgbValue</em> alpha:(CGFloat)<em>alpha</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rgbValue</code></th>
+						<td><p>The rgb value such as 0x66CCFF.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>The opacity value of the color object,
+                  specified as a value from 0.0 to 1.0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color object. The color information represented by this
+                  object is in the device RGB colorspace.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWithHexString:" title="colorWithHexString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWithHexString:">+&nbsp;colorWithHexString:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object from hex string.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable UIColor *)colorWithHexString:(NSString *)<em>hexStr</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hexStr</code></th>
+						<td><p>The hex string value for the new color.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An UIColor object from string, or nil if an error occurs.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>@discussion:
+Valid format: #RGB #RGBA #RRGGBB #RRGGBBAA 0xRGB &hellip;
+The <code>#</code> or &ldquo;0x&rdquo; sign is not requi<a href="#//api/name/red">red</a>.
+The <a href="#//api/name/alpha">alpha</a> will be set to 1.0 if there is no <a href="#//api/name/alpha">alpha</a> component.
+It will return nil when an error occurs in parsing.</p>
+
+<p>Example: @&ldquo;0xF0F&rdquo;, @&ldquo;66ccff&rdquo;, @&ldquo;#66CCFF88&rdquo;</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorByAddColor:blendMode:" title="colorByAddColor:blendMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorByAddColor:blendMode:">&ndash;&nbsp;colorByAddColor:blendMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object by add new color.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (UIColor *)colorByAddColor:(UIColor *)<em>add</em> blendMode:(CGBlendMode)<em>blendMode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>add</code></th>
+						<td><p>the color added</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>blendMode</code></th>
+						<td><p>add color blend mode</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorByChangeHue:saturation:brightness:alpha:" title="colorByChangeHue:saturation:brightness:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorByChangeHue:saturation:brightness:alpha:">&ndash;&nbsp;colorByChangeHue:saturation:brightness:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates and returns a color object by change components.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (UIColor *)colorByChangeHue:(CGFloat)<em>hueDelta</em> saturation:(CGFloat)<em>saturationDelta</em> brightness:(CGFloat)<em>brightnessDelta</em> alpha:(CGFloat)<em>alphaDelta</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hueDelta</code></th>
+						<td><p>the <a href="#//api/name/hue">hue</a> change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>saturationDelta</code></th>
+						<td><p>the <a href="#//api/name/saturation">saturation</a> change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>brightnessDelta</code></th>
+						<td><p>the <a href="#//api/name/brightness">brightness</a> change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alphaDelta</code></th>
+						<td><p>the <a href="#//api/name/alpha">alpha</a> change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Get color&apos;s description" name="task_Get color&apos;s description"></a>
+						<h2 class="task-title">Get color&apos;s description</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/rgbValue" title="rgbValue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rgbValue">&ndash;&nbsp;rgbValue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the rgb value in hex.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (uint32_t)rgbValue</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>hex value of RGB,such as 0x66ccff.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rgbaValue" title="rgbaValue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rgbaValue">&ndash;&nbsp;rgbaValue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the rgba value in hex.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (uint32_t)rgbaValue</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>hex value of RGBA,such as 0x66ccffff.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hexString" title="hexString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hexString">&ndash;&nbsp;hexString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the color&rsquo;s RGB value as a hex string (lowercase).
+Such as @&ldquo;0066cc&rdquo;.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable NSString *)hexString</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color&rsquo;s value as a hex string.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It will return nil when the color space is not RGB</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hexStringWithAlpha" title="hexStringWithAlpha"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hexStringWithAlpha">&ndash;&nbsp;hexStringWithAlpha</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the color&rsquo;s RGBA value as a hex string (lowercase).
+Such as @&ldquo;0066ccff&rdquo;.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable NSString *)hexStringWithAlpha</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The color&rsquo;s value as a hex string.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>It will return nil when the color space is not RGBA</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Retrieving Color Information" name="task_Retrieving Color Information"></a>
+						<h2 class="task-title">Retrieving Color Information</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getHue:saturation:lightness:alpha:" title="getHue:saturation:lightness:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getHue:saturation:lightness:alpha:">&ndash;&nbsp;getHue:saturation:lightness:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the components that make up the color in the HSL color space.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)getHue:(CGFloat *)<em>hue</em> saturation:(CGFloat *)<em>saturation</em> lightness:(CGFloat *)<em>lightness</em> alpha:(CGFloat *)<em>alpha</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hue</code></th>
+						<td><p>On return, the <a href="#//api/name/hue">hue</a> component of the color object,
+                    specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>saturation</code></th>
+						<td><p>On return, the <a href="#//api/name/saturation">saturation</a> component of the color object,
+                    specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>lightness</code></th>
+						<td><p>On return, the lightness component of the color object,
+                    specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>On return, the <a href="#//api/name/alpha">alpha</a> component of the color object,
+                    specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if the color could be converted, NO otherwise.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getCyan:magenta:yellow:black:alpha:" title="getCyan:magenta:yellow:black:alpha:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCyan:magenta:yellow:black:alpha:">&ndash;&nbsp;getCyan:magenta:yellow:black:alpha:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the components that make up the color in the CMYK color space.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)getCyan:(CGFloat *)<em>cyan</em> magenta:(CGFloat *)<em>magenta</em> yellow:(CGFloat *)<em>yellow</em> black:(CGFloat *)<em>black</em> alpha:(CGFloat *)<em>alpha</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cyan</code></th>
+						<td><p>On return, the cyan component of the color object,
+                 specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>magenta</code></th>
+						<td><p>On return, the magenta component of the color object,
+                 specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>yellow</code></th>
+						<td><p>On return, the yellow component of the color object,
+                 specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>black</code></th>
+						<td><p>On return, the black component of the color object,
+                 specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alpha</code></th>
+						<td><p>On return, the <a href="#//api/name/alpha">alpha</a> component of the color object,
+                 specified as a value between 0.0 and 1.0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if the color could be converted, NO otherwise.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/red" title="red"></a>
+	<h3 class="method-title"><code><a href="#//api/name/red">&nbsp;&nbsp;red</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s red component value in RGB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat red</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/green" title="green"></a>
+	<h3 class="method-title"><code><a href="#//api/name/green">&nbsp;&nbsp;green</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s green component value in RGB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat green</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/blue" title="blue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/blue">&nbsp;&nbsp;blue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s blue component value in RGB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat blue</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hue" title="hue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hue">&nbsp;&nbsp;hue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s hue component value in HSB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat hue</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/saturation" title="saturation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/saturation">&nbsp;&nbsp;saturation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s saturation component value in HSB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat saturation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/brightness" title="brightness"></a>
+	<h3 class="method-title"><code><a href="#//api/name/brightness">&nbsp;&nbsp;brightness</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s brightness component value in HSB color space.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat brightness</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/alpha" title="alpha"></a>
+	<h3 class="method-title"><code><a href="#//api/name/alpha">&nbsp;&nbsp;alpha</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s alpha component value.
+The value of this property is a float in the range <code>0.0</code> to <code>1.0</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGFloat alpha</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorSpaceModel" title="colorSpaceModel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorSpaceModel">&nbsp;&nbsp;colorSpaceModel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color&rsquo;s colorspace model.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorSpaceString" title="colorSpaceString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorSpaceString">&nbsp;&nbsp;colorSpaceString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Readable colorspace string.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, readonly) NSString *colorSpaceString</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">UIColor+YYAdd.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 China Software Cloud. All rights reserved. Updated: 2019-09-12</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

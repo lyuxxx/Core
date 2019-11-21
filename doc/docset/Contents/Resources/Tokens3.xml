@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide hash, encrypt, encode and some common method for NSData.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md2String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md2 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)md2String</Declaration>
+			
+			
+			<Anchor>//api/name/md2String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md2Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for md2 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)md2Data</Declaration>
+			
+			
+			<Anchor>//api/name/md2Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md4String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md4 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)md4String</Declaration>
+			
+			
+			<Anchor>//api/name/md4String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md4Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for md4 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)md4Data</Declaration>
+			
+			
+			<Anchor>//api/name/md4Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md5String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for md5 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)md5String</Declaration>
+			
+			
+			<Anchor>//api/name/md5String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/md5Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for md5 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)md5Data</Declaration>
+			
+			
+			<Anchor>//api/name/md5Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha1String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha1 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)sha1String</Declaration>
+			
+			
+			<Anchor>//api/name/sha1String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha1Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for sha1 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)sha1Data</Declaration>
+			
+			
+			<Anchor>//api/name/sha1Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha224String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha224 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)sha224String</Declaration>
+			
+			
+			<Anchor>//api/name/sha224String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha224Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for sha224 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)sha224Data</Declaration>
+			
+			
+			<Anchor>//api/name/sha224Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha256String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha256 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)sha256String</Declaration>
+			
+			
+			<Anchor>//api/name/sha256String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha256Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for sha256 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)sha256Data</Declaration>
+			
+			
+			<Anchor>//api/name/sha256Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha384String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha384 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)sha384String</Declaration>
+			
+			
+			<Anchor>//api/name/sha384String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha384Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for sha384 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)sha384Data</Declaration>
+			
+			
+			<Anchor>//api/name/sha384Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha512String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for sha512 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)sha512String</Declaration>
+			
+			
+			<Anchor>//api/name/sha512String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sha512Data</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for sha512 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)sha512Data</Declaration>
+			
+			
+			<Anchor>//api/name/sha512Data</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacMD5StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm md5 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacMD5StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacMD5StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacMD5DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm md5 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacMD5DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacMD5DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA1StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha1 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacSHA1StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA1StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA1DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm sha1 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacSHA1DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA1DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA224StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha224 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacSHA224StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA224StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA224DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm sha224 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacSHA224DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA224DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA256StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha256 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacSHA256StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA256StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA256DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm sha256 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacSHA256DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA256DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA384StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha384 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacSHA384StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA384StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA384DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm sha384 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacSHA384DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA384DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA512StringWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for hmac using algorithm sha512 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hmacSHA512StringWithKey:(NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA512StringWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hmacSHA512DataWithKey:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData for hmac using algorithm sha512 with key.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hmacSHA512DataWithKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The hmac key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hmacSHA512DataWithKey:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/crc32String</TokenIdentifier>
+			<Abstract type="html">Returns a lowercase NSString for crc32 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)crc32String</Declaration>
+			
+			
+			<Anchor>//api/name/crc32String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/crc32</TokenIdentifier>
+			<Abstract type="html">Returns crc32 hash.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (uint32_t)crc32</Declaration>
+			
+			
+			<Anchor>//api/name/crc32</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/aes256EncryptWithKey:iv:</TokenIdentifier>
+			<Abstract type="html">Returns an encrypted NSData using AES.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)aes256EncryptWithKey:(NSData *)key iv:(nullable NSData *)iv</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key length of 16, 24 or 32 (128, 192 or 256bits).</Abstract>
+				</Parameter><Parameter>
+					<Name>iv</Name>
+					<Abstract type="html">An initialization vector length of 16(128bits).
+              Pass nil when you don&apos;t want to use iv.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSData encrypted, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/aes256EncryptWithKey:iv:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/aes256DecryptWithkey:iv:</TokenIdentifier>
+			<Abstract type="html">Returns an decrypted NSData using AES.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)aes256DecryptWithkey:(NSData *)key iv:(nullable NSData *)iv</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">A key length of 16, 24 or 32 (128, 192 or 256bits).</Abstract>
+				</Parameter><Parameter>
+					<Name>iv</Name>
+					<Abstract type="html">An initialization vector length of 16(128bits).
+              Pass nil when you don&apos;t want to use iv.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSData decrypted, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/aes256DecryptWithkey:iv:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/utf8String</TokenIdentifier>
+			<Abstract type="html">Returns string decoded in UTF8.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)utf8String</Declaration>
+			
+			
+			<Anchor>//api/name/utf8String</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/hexString</TokenIdentifier>
+			<Abstract type="html">Returns a uppercase NSString in HEX.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hexString</Declaration>
+			
+			
+			<Anchor>//api/name/hexString</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/dataWithHexString:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData from hex string.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSData *)dataWithHexString:(NSString *)hexString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hexString</Name>
+					<Abstract type="html">The hex string which is case insensitive.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a new NSData, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataWithHexString:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/base64EncodedString</TokenIdentifier>
+			<Abstract type="html">Returns an NSString for base64 encoded.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)base64EncodedString</Declaration>
+			
+			
+			<Anchor>//api/name/base64EncodedString</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/dataWithBase64EncodedString:</TokenIdentifier>
+			<Abstract type="html">Returns an NSData from base64 encoded string.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSData *)dataWithBase64EncodedString:(NSString *)base64EncodedString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>base64EncodedString</Name>
+					<Abstract type="html">The encoded string.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataWithBase64EncodedString:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/jsonValueDecoded</TokenIdentifier>
+			<Abstract type="html">Returns an NSDictionary or NSArray for decoded self.
+Returns nil if an error occurs.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)jsonValueDecoded</Declaration>
+			
+			
+			<Anchor>//api/name/jsonValueDecoded</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/gzipInflate</TokenIdentifier>
+			<Abstract type="html">Decompress data from gzip data.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)gzipInflate</Declaration>
+			
+			<ReturnValue><Abstract type="html">Inflated data.</Abstract></ReturnValue>
+			<Anchor>//api/name/gzipInflate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/gzipDeflate</TokenIdentifier>
+			<Abstract type="html">Comperss data to gzip in default compresssion level.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)gzipDeflate</Declaration>
+			
+			<ReturnValue><Abstract type="html">Deflated data.</Abstract></ReturnValue>
+			<Anchor>//api/name/gzipDeflate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/zlibInflate</TokenIdentifier>
+			<Abstract type="html">Decompress data from zlib-compressed data.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)zlibInflate</Declaration>
+			
+			<ReturnValue><Abstract type="html">Inflated data.</Abstract></ReturnValue>
+			<Anchor>//api/name/zlibInflate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/zlibDeflate</TokenIdentifier>
+			<Abstract type="html">Comperss data to zlib-compressed in default compresssion level.</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)zlibDeflate</Declaration>
+			
+			<ReturnValue><Abstract type="html">Deflated data.</Abstract></ReturnValue>
+			<Anchor>//api/name/zlibDeflate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/dataNamed:</TokenIdentifier>
+			<Abstract type="html">Create data from the file in main bundle (similar to [UIImage imageNamed:]).</Abstract>
+			<DeclaredIn>NSData+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSData *)dataNamed:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The file name (in main bundle).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new data create from the file.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataNamed:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

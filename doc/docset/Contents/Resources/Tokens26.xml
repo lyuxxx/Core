@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIView.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/snapshotImage</TokenIdentifier>
+			<Abstract type="html">Create a snapshot image of the complete view hierarchy.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)snapshotImage</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotImage</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/snapshotImageAfterScreenUpdates:</TokenIdentifier>
+			<Abstract type="html">Create a snapshot image of the complete view hierarchy.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable UIImage *)snapshotImageAfterScreenUpdates:(BOOL)afterUpdates</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>afterUpdates</Name>
+					<Abstract type="html">afterScreenUpdates</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/snapshotImageAfterScreenUpdates:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/snapshotPDF</TokenIdentifier>
+			<Abstract type="html">Create a snapshot PDF of the complete view hierarchy.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)snapshotPDF</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotPDF</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setLayerShadow:offset:radius:</TokenIdentifier>
+			<Abstract type="html">Shortcut to set the view.layer&apos;s shadow</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)setLayerShadow:(nullable UIColor *)color offset:(CGSize)offset radius:(CGFloat)radius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>color</Name>
+					<Abstract type="html">Shadow Color</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Shadow offset</Abstract>
+				</Parameter><Parameter>
+					<Name>radius</Name>
+					<Abstract type="html">Shadow radius</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLayerShadow:offset:radius:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/removeAllSubviews</TokenIdentifier>
+			<Abstract type="html">Remove all subviews.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllSubviews</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setViewController:</TokenIdentifier>
+			<Abstract type="html">Returns the view&apos;s view controller (may be nil).</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/viewController</TokenIdentifier>
+			<Abstract type="html">Returns the view&apos;s view controller (may be nil).</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIView/viewController</TokenIdentifier>
+			<Abstract type="html">Returns the view&apos;s view controller (may be nil).</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/setVisibleAlpha:</TokenIdentifier>
+			<Abstract type="html">Returns the visible alpha on screen, taking into account superview and window.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat visibleAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/visibleAlpha</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/visibleAlpha</TokenIdentifier>
+			<Abstract type="html">Returns the visible alpha on screen, taking into account superview and window.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat visibleAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/visibleAlpha</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIView/visibleAlpha</TokenIdentifier>
+			<Abstract type="html">Returns the visible alpha on screen, taking into account superview and window.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat visibleAlpha</Declaration>
+			
+			
+			<Anchor>//api/name/visibleAlpha</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/convertPoint:toViewOrWindow:</TokenIdentifier>
+			<Abstract type="html">Converts a point from the receiver&apos;s coordinate system to that of the specified view or window.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)convertPoint:(CGPoint)point toViewOrWindow:(nullable UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">A point specified in the local coordinate system (bounds) of the receiver.</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view or window into whose coordinate system point is to be converted.
+    If view is nil, this method instead converts to window base coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The point converted to the coordinate system of view.</Abstract></ReturnValue>
+			<Anchor>//api/name/convertPoint:toViewOrWindow:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/convertPoint:fromViewOrWindow:</TokenIdentifier>
+			<Abstract type="html">Converts a point from the coordinate system of a given view or window to that of the receiver.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)convertPoint:(CGPoint)point fromViewOrWindow:(nullable UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">A point specified in the local coordinate system (bounds) of view.</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view or window with point in its coordinate system.
+    If view is nil, this method instead converts from window base coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The point converted to the local coordinate system (bounds) of the receiver.</Abstract></ReturnValue>
+			<Anchor>//api/name/convertPoint:fromViewOrWindow:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/convertRect:toViewOrWindow:</TokenIdentifier>
+			<Abstract type="html">Converts a rectangle from the receiver&apos;s coordinate system to that of another view or window.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)convertRect:(CGRect)rect toViewOrWindow:(nullable UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">A rectangle specified in the local coordinate system (bounds) of the receiver.</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view or window that is the target of the conversion operation. If view is nil, this method instead converts to window base coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The converted rectangle.</Abstract></ReturnValue>
+			<Anchor>//api/name/convertRect:toViewOrWindow:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIView/convertRect:fromViewOrWindow:</TokenIdentifier>
+			<Abstract type="html">Converts a rectangle from the coordinate system of another view or window to that of the receiver.</Abstract>
+			<DeclaredIn>UIView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)convertRect:(CGRect)rect fromViewOrWindow:(nullable UIView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">A rectangle specified in the local coordinate system (bounds) of view.</Abstract>
+				</Parameter><Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The view or window with rect in its coordinate system.
+    If view is nil, this method instead converts from window base coordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The converted rectangle.</Abstract></ReturnValue>
+			<Anchor>//api/name/convertRect:fromViewOrWindow:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

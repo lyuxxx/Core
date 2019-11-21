@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIGestureRecognizer+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIGestureRecognizer(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIGestureRecognizer.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIGestureRecognizer/initWithActionBlock:</TokenIdentifier>
+			<Abstract type="html">Initializes an allocated gesture-recognizer object with a action block.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithActionBlock:(void ( ^ ) ( id sender ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">An action block that to handle the gesture recognized by the
+               receiver. nil is invalid. It is retained by the gesture.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of a concrete UIGestureRecognizer subclass or
+         nil if an error occurred in the attempt to initialize the object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithActionBlock:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIGestureRecognizer/addActionBlock:</TokenIdentifier>
+			<Abstract type="html">Adds an action block to a gesture-recognizer object. It is retained by the
+gesture.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)addActionBlock:(void ( ^ ) ( id sender ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A block invoked by the action message. nil is not a valid value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addActionBlock:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIGestureRecognizer/removeAllActionBlocks</TokenIdentifier>
+			<Abstract type="html">Remove all action blocks.</Abstract>
+			<DeclaredIn>UIGestureRecognizer+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllActionBlocks</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllActionBlocks</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

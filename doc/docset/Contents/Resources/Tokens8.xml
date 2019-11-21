@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSNotificationCenter+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSNotificationCenter(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide some method for NSNotificationCenter
+to post notification in different thread.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNotificationCenter/postNotificationOnMainThread:</TokenIdentifier>
+			<Abstract type="html">Posts a given notification to the receiver on main thread.
+If current thread is main thread, the notification is posted synchronized;
+otherwise, is posted asynchronized.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotificationOnMainThread:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">The notification to post.
+                      An exception is raised if notification is nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postNotificationOnMainThread:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNotificationCenter/postNotificationOnMainThread:waitUntilDone:</TokenIdentifier>
+			<Abstract type="html">Posts a given notification to the receiver on main thread.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotificationOnMainThread:(NSNotification *)notification waitUntilDone:(BOOL)wait</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">The notification to post.
+                     An exception is raised if notification is nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>wait</Name>
+					<Abstract type="html">A Boolean that specifies whether the current thread blocks
+                     until after the specified notification is posted on the 
+                     receiver on the main thread. Specify YES to block this 
+                     thread; otherwise, specify NO to have this method return 
+                     immediately.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postNotificationOnMainThread:waitUntilDone:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNotificationCenter/postNotificationOnMainThreadWithName:object:</TokenIdentifier>
+			<Abstract type="html">Creates a notification with a given name and sender and posts it to the
+receiver on main thread. If current thread is main thread, the notification
+is posted synchronized; otherwise, is posted asynchronized.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotificationOnMainThreadWithName:(NSString *)name object:(nullable id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the notification.</Abstract>
+				</Parameter><Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object posting the notification.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postNotificationOnMainThreadWithName:object:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNotificationCenter/postNotificationOnMainThreadWithName:object:userInfo:</TokenIdentifier>
+			<Abstract type="html">Creates a notification with a given name and sender and posts it to the
+receiver on main thread. If current thread is main thread, the notification
+is posted synchronized; otherwise, is posted asynchronized.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotificationOnMainThreadWithName:(NSString *)name object:(nullable id)object userInfo:(nullable NSDictionary *)userInfo</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the notification.</Abstract>
+				</Parameter><Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object posting the notification.</Abstract>
+				</Parameter><Parameter>
+					<Name>userInfo</Name>
+					<Abstract type="html">Information about the the notification. May be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postNotificationOnMainThreadWithName:object:userInfo:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNotificationCenter/postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:</TokenIdentifier>
+			<Abstract type="html">Creates a notification with a given name and sender and posts it to the
+receiver on main thread.</Abstract>
+			<DeclaredIn>NSNotificationCenter+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)postNotificationOnMainThreadWithName:(NSString *)name object:(nullable id)object userInfo:(nullable NSDictionary *)userInfo waitUntilDone:(BOOL)wait</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the notification.</Abstract>
+				</Parameter><Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object posting the notification.</Abstract>
+				</Parameter><Parameter>
+					<Name>userInfo</Name>
+					<Abstract type="html">Information about the the notification. May be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>wait</Name>
+					<Abstract type="html">A Boolean that specifies whether the current thread blocks
+                 until after the specified notification is posted on the
+                 receiver on the main thread. Specify YES to block this
+                 thread; otherwise, specify NO to have this method return
+                 immediately.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postNotificationOnMainThreadWithName:object:userInfo:waitUntilDone:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSNumber+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSNumber(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide a method to parse NSString for NSNumber.</Abstract>
+			<DeclaredIn>NSNumber+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNumber/numberWithString:</TokenIdentifier>
+			<Abstract type="html">Creates and returns an NSNumber object from a string.
+Valid format: @&quot;12&quot;, @&quot;12.345&quot;, @&quot; -0xFF&quot;, @&quot; .23e99 &quot;...</Abstract>
+			<DeclaredIn>NSNumber+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSNumber *)numberWithString:(NSString *)string</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The string described an number.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an NSNumber when parse succeed, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberWithString:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSMutableDictionary+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSMutableDictionary(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide some some common method for NSMutableDictionary.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableDictionary/dictionaryWithPlistData:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a dictionary from a specified property list data.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSMutableDictionary *)dictionaryWithPlistData:(NSData *)plist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plist</Name>
+					<Abstract type="html">A property list data whose root object is a dictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new dictionary created from the plist data, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithPlistData:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableDictionary/dictionaryWithPlistString:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a dictionary from a specified property list xml string.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSMutableDictionary *)dictionaryWithPlistString:(NSString *)plist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plist</Name>
+					<Abstract type="html">A property list xml string whose root object is a dictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new dictionary created from the plist string, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithPlistString:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableDictionary/popObjectForKey:</TokenIdentifier>
+			<Abstract type="html">Removes and returns the value associated with a given key.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable id)popObjectForKey:(id)aKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aKey</Name>
+					<Abstract type="html">The key for which to return and remove the corresponding value.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The value associated with aKey, or nil if no value is associated with aKey.</Abstract></ReturnValue>
+			<Anchor>//api/name/popObjectForKey:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableDictionary/popEntriesForKeys:</TokenIdentifier>
+			<Abstract type="html">Returns a new dictionary containing the entries for keys, and remove these
+entries from reciever. If the keys is empty or nil, it just returns an
+empty dictionary.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)popEntriesForKeys:(NSArray *)keys</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">The keys.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The entries for the keys.</Abstract></ReturnValue>
+			<Anchor>//api/name/popEntriesForKeys:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

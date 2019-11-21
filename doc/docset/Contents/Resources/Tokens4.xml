@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for NSDate.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setYear:</TokenIdentifier>
+			<Abstract type="html">Year component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger year</Declaration>
+			
+			
+			<Anchor>//api/name/year</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/year</TokenIdentifier>
+			<Abstract type="html">Year component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger year</Declaration>
+			
+			
+			<Anchor>//api/name/year</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/year</TokenIdentifier>
+			<Abstract type="html">Year component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger year</Declaration>
+			
+			
+			<Anchor>//api/name/year</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setMonth:</TokenIdentifier>
+			<Abstract type="html">Month component (1~12)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger month</Declaration>
+			
+			
+			<Anchor>//api/name/month</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/month</TokenIdentifier>
+			<Abstract type="html">Month component (1~12)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger month</Declaration>
+			
+			
+			<Anchor>//api/name/month</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/month</TokenIdentifier>
+			<Abstract type="html">Month component (1~12)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger month</Declaration>
+			
+			
+			<Anchor>//api/name/month</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setDay:</TokenIdentifier>
+			<Abstract type="html">Day component (1~31)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger day</Declaration>
+			
+			
+			<Anchor>//api/name/day</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/day</TokenIdentifier>
+			<Abstract type="html">Day component (1~31)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger day</Declaration>
+			
+			
+			<Anchor>//api/name/day</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/day</TokenIdentifier>
+			<Abstract type="html">Day component (1~31)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger day</Declaration>
+			
+			
+			<Anchor>//api/name/day</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setHour:</TokenIdentifier>
+			<Abstract type="html">Hour component (0~23)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger hour</Declaration>
+			
+			
+			<Anchor>//api/name/hour</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/hour</TokenIdentifier>
+			<Abstract type="html">Hour component (0~23)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger hour</Declaration>
+			
+			
+			<Anchor>//api/name/hour</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/hour</TokenIdentifier>
+			<Abstract type="html">Hour component (0~23)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger hour</Declaration>
+			
+			
+			<Anchor>//api/name/hour</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setMinute:</TokenIdentifier>
+			<Abstract type="html">Minute component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger minute</Declaration>
+			
+			
+			<Anchor>//api/name/minute</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/minute</TokenIdentifier>
+			<Abstract type="html">Minute component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger minute</Declaration>
+			
+			
+			<Anchor>//api/name/minute</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/minute</TokenIdentifier>
+			<Abstract type="html">Minute component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger minute</Declaration>
+			
+			
+			<Anchor>//api/name/minute</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setSecond:</TokenIdentifier>
+			<Abstract type="html">Second component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger second</Declaration>
+			
+			
+			<Anchor>//api/name/second</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/second</TokenIdentifier>
+			<Abstract type="html">Second component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger second</Declaration>
+			
+			
+			<Anchor>//api/name/second</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/second</TokenIdentifier>
+			<Abstract type="html">Second component (0~59)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger second</Declaration>
+			
+			
+			<Anchor>//api/name/second</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setNanosecond:</TokenIdentifier>
+			<Abstract type="html">Nanosecond component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger nanosecond</Declaration>
+			
+			
+			<Anchor>//api/name/nanosecond</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/nanosecond</TokenIdentifier>
+			<Abstract type="html">Nanosecond component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger nanosecond</Declaration>
+			
+			
+			<Anchor>//api/name/nanosecond</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/nanosecond</TokenIdentifier>
+			<Abstract type="html">Nanosecond component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger nanosecond</Declaration>
+			
+			
+			<Anchor>//api/name/nanosecond</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setWeekday:</TokenIdentifier>
+			<Abstract type="html">Weekday component (1~7, first day is based on user setting)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekday</Declaration>
+			
+			
+			<Anchor>//api/name/weekday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/weekday</TokenIdentifier>
+			<Abstract type="html">Weekday component (1~7, first day is based on user setting)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekday</Declaration>
+			
+			
+			<Anchor>//api/name/weekday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/weekday</TokenIdentifier>
+			<Abstract type="html">Weekday component (1~7, first day is based on user setting)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekday</Declaration>
+			
+			
+			<Anchor>//api/name/weekday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setWeekdayOrdinal:</TokenIdentifier>
+			<Abstract type="html">WeekdayOrdinal component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekdayOrdinal</Declaration>
+			
+			
+			<Anchor>//api/name/weekdayOrdinal</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/weekdayOrdinal</TokenIdentifier>
+			<Abstract type="html">WeekdayOrdinal component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekdayOrdinal</Declaration>
+			
+			
+			<Anchor>//api/name/weekdayOrdinal</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/weekdayOrdinal</TokenIdentifier>
+			<Abstract type="html">WeekdayOrdinal component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekdayOrdinal</Declaration>
+			
+			
+			<Anchor>//api/name/weekdayOrdinal</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setWeekOfMonth:</TokenIdentifier>
+			<Abstract type="html">WeekOfMonth component (1~5)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfMonth</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/weekOfMonth</TokenIdentifier>
+			<Abstract type="html">WeekOfMonth component (1~5)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfMonth</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/weekOfMonth</TokenIdentifier>
+			<Abstract type="html">WeekOfMonth component (1~5)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfMonth</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setWeekOfYear:</TokenIdentifier>
+			<Abstract type="html">WeekOfYear component (1~53)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/weekOfYear</TokenIdentifier>
+			<Abstract type="html">WeekOfYear component (1~53)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/weekOfYear</TokenIdentifier>
+			<Abstract type="html">WeekOfYear component (1~53)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger weekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/weekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setYearForWeekOfYear:</TokenIdentifier>
+			<Abstract type="html">YearForWeekOfYear component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger yearForWeekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/yearForWeekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/yearForWeekOfYear</TokenIdentifier>
+			<Abstract type="html">YearForWeekOfYear component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger yearForWeekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/yearForWeekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/yearForWeekOfYear</TokenIdentifier>
+			<Abstract type="html">YearForWeekOfYear component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger yearForWeekOfYear</Declaration>
+			
+			
+			<Anchor>//api/name/yearForWeekOfYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setQuarter:</TokenIdentifier>
+			<Abstract type="html">Quarter component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger quarter</Declaration>
+			
+			
+			<Anchor>//api/name/quarter</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/quarter</TokenIdentifier>
+			<Abstract type="html">Quarter component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger quarter</Declaration>
+			
+			
+			<Anchor>//api/name/quarter</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/quarter</TokenIdentifier>
+			<Abstract type="html">Quarter component</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger quarter</Declaration>
+			
+			
+			<Anchor>//api/name/quarter</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setIsLeapMonth:</TokenIdentifier>
+			<Abstract type="html">Weather the month is leap month</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapMonth</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isLeapMonth</TokenIdentifier>
+			<Abstract type="html">Weather the month is leap month</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapMonth</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/isLeapMonth</TokenIdentifier>
+			<Abstract type="html">Weather the month is leap month</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapMonth</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapMonth</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setIsLeapYear:</TokenIdentifier>
+			<Abstract type="html">Weather the year is leap year</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapYear</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isLeapYear</TokenIdentifier>
+			<Abstract type="html">Weather the year is leap year</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapYear</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/isLeapYear</TokenIdentifier>
+			<Abstract type="html">Weather the year is leap year</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isLeapYear</Declaration>
+			
+			
+			<Anchor>//api/name/isLeapYear</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setIsToday:</TokenIdentifier>
+			<Abstract type="html">Weather date is today (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isToday</Declaration>
+			
+			
+			<Anchor>//api/name/isToday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isToday</TokenIdentifier>
+			<Abstract type="html">Weather date is today (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isToday</Declaration>
+			
+			
+			<Anchor>//api/name/isToday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/isToday</TokenIdentifier>
+			<Abstract type="html">Weather date is today (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isToday</Declaration>
+			
+			
+			<Anchor>//api/name/isToday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/setIsYesterday:</TokenIdentifier>
+			<Abstract type="html">Weather date is yesterday (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYesterday</Declaration>
+			
+			
+			<Anchor>//api/name/isYesterday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/isYesterday</TokenIdentifier>
+			<Abstract type="html">Weather date is yesterday (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYesterday</Declaration>
+			
+			
+			<Anchor>//api/name/isYesterday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NSDate/isYesterday</TokenIdentifier>
+			<Abstract type="html">Weather date is yesterday (based on current locale)</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isYesterday</Declaration>
+			
+			
+			<Anchor>//api/name/isYesterday</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingYears:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of years.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingYears:(NSInteger)years</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>years</Name>
+					<Abstract type="html">Number of years to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired years.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingYears:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingMonths:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of months.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingMonths:(NSInteger)months</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>months</Name>
+					<Abstract type="html">Number of months to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired months.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingMonths:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingWeeks:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of weeks.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingWeeks:(NSInteger)weeks</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>weeks</Name>
+					<Abstract type="html">Number of weeks to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired weeks.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingWeeks:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingDays:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of days.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingDays:(NSInteger)days</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>days</Name>
+					<Abstract type="html">Number of days to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired days.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingDays:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingHours:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of hours.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingHours:(NSInteger)hours</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hours</Name>
+					<Abstract type="html">Number of hours to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired hours.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingHours:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingMinutes:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of minutes.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingMinutes:(NSInteger)minutes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>minutes</Name>
+					<Abstract type="html">Number of minutes to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired minutes.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingMinutes:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateByAddingSeconds:</TokenIdentifier>
+			<Abstract type="html">Returns a date representing the receiver date shifted later by the provided number of seconds.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)dateByAddingSeconds:(NSInteger)seconds</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">Number of seconds to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Date modified by the number of desired seconds.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateByAddingSeconds:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/stringWithFormat:</TokenIdentifier>
+			<Abstract type="html">Returns a formatted string representing this date.
+see http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#DateFormatPatterns
+for format description.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)stringWithFormat:(NSString *)format</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>format</Name>
+					<Abstract type="html">String representing the desired date format.
+e.g. @&quot;yyyy-MM-dd HH:mm:ss&quot;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSString representing the formatted date string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithFormat:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/stringWithFormat:timeZone:locale:</TokenIdentifier>
+			<Abstract type="html">Returns a formatted string representing this date.
+see http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#DateFormatPatterns
+for format description.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)stringWithFormat:(NSString *)format timeZone:(nullable NSTimeZone *)timeZone locale:(nullable NSLocale *)locale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>format</Name>
+					<Abstract type="html">String representing the desired date format.
+e.g. @&quot;yyyy-MM-dd HH:mm:ss&quot;</Abstract>
+				</Parameter><Parameter>
+					<Name>timeZone</Name>
+					<Abstract type="html">Desired time zone.</Abstract>
+				</Parameter><Parameter>
+					<Name>locale</Name>
+					<Abstract type="html">Desired locale.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSString representing the formatted date string.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithFormat:timeZone:locale:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/stringWithISOFormat</TokenIdentifier>
+			<Abstract type="html">Returns a string representing this date in ISO8601 format.
+e.g. &quot;2010-07-09T16:13:30+12:00&quot;</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)stringWithISOFormat</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSString representing the formatted date string in ISO8601.</Abstract></ReturnValue>
+			<Anchor>//api/name/stringWithISOFormat</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateWithString:format:</TokenIdentifier>
+			<Abstract type="html">Returns a date parsed from given string interpreted using the format.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to parse.</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">The string&apos;s date format.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A date representation of string interpreted using the format.
+If can not parse the string, returns nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithString:format:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateWithString:format:timeZone:locale:</TokenIdentifier>
+			<Abstract type="html">Returns a date parsed from given string interpreted using the format.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format timeZone:(nullable NSTimeZone *)timeZone locale:(nullable NSLocale *)locale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">The string to parse.</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">The string&apos;s date format.</Abstract>
+				</Parameter><Parameter>
+					<Name>timeZone</Name>
+					<Abstract type="html">The time zone, can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>locale</Name>
+					<Abstract type="html">The locale, can be nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A date representation of string interpreted using the format.
+If can not parse the string, returns nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithString:format:timeZone:locale:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateWithISOFormatString:</TokenIdentifier>
+			<Abstract type="html">Returns a date parsed from given string interpreted using the ISO8601 format.</Abstract>
+			<DeclaredIn>NSDate+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDate *)dateWithISOFormatString:(NSString *)dateString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dateString</Name>
+					<Abstract type="html">The date string in ISO8601 format. e.g. &quot;2010-07-09T16:13:30+12:00&quot;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A date representation of string interpreted using the format.
+If can not parse the string, returns nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/dateWithISOFormatString:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

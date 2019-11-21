@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIScrollView+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIScrollView(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UIScrollView.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToTop</TokenIdentifier>
+			<Abstract type="html">Scroll content to top with animation.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToTop</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToTop</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToBottom</TokenIdentifier>
+			<Abstract type="html">Scroll content to bottom with animation.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToBottom</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToBottom</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToLeft</TokenIdentifier>
+			<Abstract type="html">Scroll content to left with animation.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToLeft</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToLeft</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToRight</TokenIdentifier>
+			<Abstract type="html">Scroll content to right with animation.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToRight</Declaration>
+			
+			
+			<Anchor>//api/name/scrollToRight</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToTopAnimated:</TokenIdentifier>
+			<Abstract type="html">Scroll content to top.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToTopAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Use animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToTopAnimated:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToBottomAnimated:</TokenIdentifier>
+			<Abstract type="html">Scroll content to bottom.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToBottomAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Use animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToBottomAnimated:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToLeftAnimated:</TokenIdentifier>
+			<Abstract type="html">Scroll content to left.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToLeftAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Use animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToLeftAnimated:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIScrollView/scrollToRightAnimated:</TokenIdentifier>
+			<Abstract type="html">Scroll content to right.</Abstract>
+			<DeclaredIn>UIScrollView+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollToRightAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Use animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/scrollToRightAnimated:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

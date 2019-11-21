@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UITextField+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UITextField(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provides extensions for UITextField.</Abstract>
+			<DeclaredIn>UITextField+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITextField/selectAllText</TokenIdentifier>
+			<Abstract type="html">Set all text selected.</Abstract>
+			<DeclaredIn>UITextField+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)selectAllText</Declaration>
+			
+			
+			<Anchor>//api/name/selectAllText</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UITextField/setSelectedRange:</TokenIdentifier>
+			<Abstract type="html">Set text in range selected.</Abstract>
+			<DeclaredIn>UITextField+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (void)setSelectedRange:(NSRange)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">The range of selected text in a document.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSelectedRange:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

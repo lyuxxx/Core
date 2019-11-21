@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide some method for UIColor to convert color between
+RGB,HSB,HSL,CMYK and Hex.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithHue:saturation:lightness:alpha:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the specified opacity
+and HSL color space component values.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithHue:(CGFloat)hue saturation:(CGFloat)saturation lightness:(CGFloat)lightness alpha:(CGFloat)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hue</Name>
+					<Abstract type="html">The hue component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>saturation</Name>
+					<Abstract type="html">The saturation component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>lightness</Name>
+					<Abstract type="html">The lightness component of the color object in the HSL color space,
+                   specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">The opacity value of the color object,
+                   specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The color object. The color information represented by this
+                   object is in the device RGB colorspace.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHue:saturation:lightness:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithCyan:magenta:yellow:black:alpha:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the specified opacity
+and CMYK color space component values.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithCyan:(CGFloat)cyan magenta:(CGFloat)magenta yellow:(CGFloat)yellow black:(CGFloat)black alpha:(CGFloat)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cyan</Name>
+					<Abstract type="html">The cyan component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>magenta</Name>
+					<Abstract type="html">The magenta component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>yellow</Name>
+					<Abstract type="html">The yellow component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>black</Name>
+					<Abstract type="html">The black component of the color object in the CMYK color space,
+                specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">The opacity value of the color object,
+                specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The color object. The color information represented by this
+                object is in the device RGB colorspace.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithCyan:magenta:yellow:black:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithRGB:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the hex RGB color values.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithRGB:(uint32_t)rgbValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rgbValue</Name>
+					<Abstract type="html">The rgb value such as 0x66ccff.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The color object. The color information represented by this
+                  object is in the device RGB colorspace.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithRGB:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithRGBA:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the hex RGBA color values.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithRGBA:(uint32_t)rgbaValue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rgbaValue</Name>
+					<Abstract type="html">The rgb value such as 0x66ccffff.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The color object. The color information represented by this
+                   object is in the device RGB colorspace.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithRGBA:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithRGB:alpha:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object using the specified opacity and RGB hex value.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithRGB:(uint32_t)rgbValue alpha:(CGFloat)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rgbValue</Name>
+					<Abstract type="html">The rgb value such as 0x66CCFF.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">The opacity value of the color object,
+                  specified as a value from 0.0 to 1.0.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The color object. The color information represented by this
+                  object is in the device RGB colorspace.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithRGB:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithHexString:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object from hex string.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable UIColor *)colorWithHexString:(NSString *)hexStr</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hexStr</Name>
+					<Abstract type="html">The hex string value for the new color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An UIColor object from string, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHexString:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorByAddColor:blendMode:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object by add new color.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)colorByAddColor:(UIColor *)add blendMode:(CGBlendMode)blendMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>add</Name>
+					<Abstract type="html">the color added</Abstract>
+				</Parameter><Parameter>
+					<Name>blendMode</Name>
+					<Abstract type="html">add color blend mode</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/colorByAddColor:blendMode:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorByChangeHue:saturation:brightness:alpha:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a color object by change components.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)colorByChangeHue:(CGFloat)hueDelta saturation:(CGFloat)saturationDelta brightness:(CGFloat)brightnessDelta alpha:(CGFloat)alphaDelta</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hueDelta</Name>
+					<Abstract type="html">the hue change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</Abstract>
+				</Parameter><Parameter>
+					<Name>saturationDelta</Name>
+					<Abstract type="html">the saturation change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</Abstract>
+				</Parameter><Parameter>
+					<Name>brightnessDelta</Name>
+					<Abstract type="html">the brightness change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</Abstract>
+				</Parameter><Parameter>
+					<Name>alphaDelta</Name>
+					<Abstract type="html">the alpha change delta specified as a value
+                         from -1.0 to 1.0. 0 means no change.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/colorByChangeHue:saturation:brightness:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/rgbValue</TokenIdentifier>
+			<Abstract type="html">Returns the rgb value in hex.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (uint32_t)rgbValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">hex value of RGB,such as 0x66ccff.</Abstract></ReturnValue>
+			<Anchor>//api/name/rgbValue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/rgbaValue</TokenIdentifier>
+			<Abstract type="html">Returns the rgba value in hex.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (uint32_t)rgbaValue</Declaration>
+			
+			<ReturnValue><Abstract type="html">hex value of RGBA,such as 0x66ccffff.</Abstract></ReturnValue>
+			<Anchor>//api/name/rgbaValue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/hexString</TokenIdentifier>
+			<Abstract type="html">Returns the color&apos;s RGB value as a hex string (lowercase).
+Such as @&quot;0066cc&quot;.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hexString</Declaration>
+			
+			<ReturnValue><Abstract type="html">The color&apos;s value as a hex string.</Abstract></ReturnValue>
+			<Anchor>//api/name/hexString</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/hexStringWithAlpha</TokenIdentifier>
+			<Abstract type="html">Returns the color&apos;s RGBA value as a hex string (lowercase).
+Such as @&quot;0066ccff&quot;.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)hexStringWithAlpha</Declaration>
+			
+			<ReturnValue><Abstract type="html">The color&apos;s value as a hex string.</Abstract></ReturnValue>
+			<Anchor>//api/name/hexStringWithAlpha</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/getHue:saturation:lightness:alpha:</TokenIdentifier>
+			<Abstract type="html">Returns the components that make up the color in the HSL color space.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)getHue:(CGFloat *)hue saturation:(CGFloat *)saturation lightness:(CGFloat *)lightness alpha:(CGFloat *)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hue</Name>
+					<Abstract type="html">On return, the hue component of the color object,
+                    specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>saturation</Name>
+					<Abstract type="html">On return, the saturation component of the color object,
+                    specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>lightness</Name>
+					<Abstract type="html">On return, the lightness component of the color object,
+                    specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">On return, the alpha component of the color object,
+                    specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the color could be converted, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/getHue:saturation:lightness:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/getCyan:magenta:yellow:black:alpha:</TokenIdentifier>
+			<Abstract type="html">Returns the components that make up the color in the CMYK color space.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)getCyan:(CGFloat *)cyan magenta:(CGFloat *)magenta yellow:(CGFloat *)yellow black:(CGFloat *)black alpha:(CGFloat *)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cyan</Name>
+					<Abstract type="html">On return, the cyan component of the color object,
+                 specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>magenta</Name>
+					<Abstract type="html">On return, the magenta component of the color object,
+                 specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>yellow</Name>
+					<Abstract type="html">On return, the yellow component of the color object,
+                 specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>black</Name>
+					<Abstract type="html">On return, the black component of the color object,
+                 specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">On return, the alpha component of the color object,
+                 specified as a value between 0.0 and 1.0.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the color could be converted, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/getCyan:magenta:yellow:black:alpha:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setRed:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s red component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/red</TokenIdentifier>
+			<Abstract type="html">The color&apos;s red component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/red</TokenIdentifier>
+			<Abstract type="html">The color&apos;s red component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setGreen:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s green component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/green</TokenIdentifier>
+			<Abstract type="html">The color&apos;s green component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/green</TokenIdentifier>
+			<Abstract type="html">The color&apos;s green component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setBlue:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s blue component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/blue</TokenIdentifier>
+			<Abstract type="html">The color&apos;s blue component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/blue</TokenIdentifier>
+			<Abstract type="html">The color&apos;s blue component value in RGB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setHue:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s hue component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat hue</Declaration>
+			
+			
+			<Anchor>//api/name/hue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/hue</TokenIdentifier>
+			<Abstract type="html">The color&apos;s hue component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat hue</Declaration>
+			
+			
+			<Anchor>//api/name/hue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/hue</TokenIdentifier>
+			<Abstract type="html">The color&apos;s hue component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat hue</Declaration>
+			
+			
+			<Anchor>//api/name/hue</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setSaturation:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s saturation component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat saturation</Declaration>
+			
+			
+			<Anchor>//api/name/saturation</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/saturation</TokenIdentifier>
+			<Abstract type="html">The color&apos;s saturation component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat saturation</Declaration>
+			
+			
+			<Anchor>//api/name/saturation</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/saturation</TokenIdentifier>
+			<Abstract type="html">The color&apos;s saturation component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat saturation</Declaration>
+			
+			
+			<Anchor>//api/name/saturation</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setBrightness:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s brightness component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat brightness</Declaration>
+			
+			
+			<Anchor>//api/name/brightness</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/brightness</TokenIdentifier>
+			<Abstract type="html">The color&apos;s brightness component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat brightness</Declaration>
+			
+			
+			<Anchor>//api/name/brightness</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/brightness</TokenIdentifier>
+			<Abstract type="html">The color&apos;s brightness component value in HSB color space.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat brightness</Declaration>
+			
+			
+			<Anchor>//api/name/brightness</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setAlpha:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s alpha component value.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/alpha</TokenIdentifier>
+			<Abstract type="html">The color&apos;s alpha component value.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/alpha</TokenIdentifier>
+			<Abstract type="html">The color&apos;s alpha component value.
+The value of this property is a float in the range 0.0 to 1.0.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setColorSpaceModel:</TokenIdentifier>
+			<Abstract type="html">The color&apos;s colorspace model.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceModel</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorSpaceModel</TokenIdentifier>
+			<Abstract type="html">The color&apos;s colorspace model.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceModel</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/colorSpaceModel</TokenIdentifier>
+			<Abstract type="html">The color&apos;s colorspace model.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceModel</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/setColorSpaceString:</TokenIdentifier>
+			<Abstract type="html">Readable colorspace string.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) NSString *colorSpaceString</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceString</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorSpaceString</TokenIdentifier>
+			<Abstract type="html">Readable colorspace string.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) NSString *colorSpaceString</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceString</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UIColor/colorSpaceString</TokenIdentifier>
+			<Abstract type="html">Readable colorspace string.</Abstract>
+			<DeclaredIn>UIColor+YYAdd.h</DeclaredIn>
+			
+			<Declaration>@property (nullable, nonatomic, readonly) NSString *colorSpaceString</Declaration>
+			
+			
+			<Anchor>//api/name/colorSpaceString</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

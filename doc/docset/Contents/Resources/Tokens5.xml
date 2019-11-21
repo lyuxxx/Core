@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDictionary+YYAdd.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDictionary(YYAdd)</TokenIdentifier>
+			<Abstract type="html">Provide some some common method for NSDictionary.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/dictionaryWithPlistData:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a dictionary from a specified property list data.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDictionary *)dictionaryWithPlistData:(NSData *)plist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plist</Name>
+					<Abstract type="html">A property list data whose root object is a dictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new dictionary created from the plist data, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithPlistData:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/dictionaryWithPlistString:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a dictionary from a specified property list xml string.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDictionary *)dictionaryWithPlistString:(NSString *)plist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plist</Name>
+					<Abstract type="html">A property list xml string whose root object is a dictionary.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new dictionary created from the plist string, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithPlistString:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/plistData</TokenIdentifier>
+			<Abstract type="html">Serialize the dictionary to a binary property list data.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSData *)plistData</Declaration>
+			
+			<ReturnValue><Abstract type="html">A bplist data, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/plistData</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/plistString</TokenIdentifier>
+			<Abstract type="html">Serialize the dictionary to a xml property list string.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)plistString</Declaration>
+			
+			<ReturnValue><Abstract type="html">A plist xml string, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/plistString</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/allKeysSorted</TokenIdentifier>
+			<Abstract type="html">Returns a new array containing the dictionary&apos;s keys sorted.
+The keys should be NSString, and they will be sorted ascending.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)allKeysSorted</Declaration>
+			
+			<ReturnValue><Abstract type="html">A new array containing the dictionary&apos;s keys,
+or an empty array if the dictionary has no entries.</Abstract></ReturnValue>
+			<Anchor>//api/name/allKeysSorted</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/allValuesSortedByKeys</TokenIdentifier>
+			<Abstract type="html">Returns a new array containing the dictionary&apos;s values sorted by keys.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)allValuesSortedByKeys</Declaration>
+			
+			<ReturnValue><Abstract type="html">A new array containing the dictionary&apos;s values sorted by keys,
+or an empty array if the dictionary has no entries.</Abstract></ReturnValue>
+			<Anchor>//api/name/allValuesSortedByKeys</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/containsObjectForKey:</TokenIdentifier>
+			<Abstract type="html">Returns a BOOL value tells if the dictionary has an object for key.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)containsObjectForKey:(id)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/containsObjectForKey:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/entriesForKeys:</TokenIdentifier>
+			<Abstract type="html">Returns a new dictionary containing the entries for keys.
+If the keys is empty or nil, it just returns an empty dictionary.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)entriesForKeys:(NSArray *)keys</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">The keys.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The entries for the keys.</Abstract></ReturnValue>
+			<Anchor>//api/name/entriesForKeys:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/jsonStringEncoded</TokenIdentifier>
+			<Abstract type="html">Convert dictionary to json string. return nil if an error occurs.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)jsonStringEncoded</Declaration>
+			
+			
+			<Anchor>//api/name/jsonStringEncoded</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/jsonPrettyStringEncoded</TokenIdentifier>
+			<Abstract type="html">Convert dictionary to json string formatted. return nil if an error occurs.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)jsonPrettyStringEncoded</Declaration>
+			
+			
+			<Anchor>//api/name/jsonPrettyStringEncoded</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDictionary/dictionaryWithXML:</TokenIdentifier>
+			<Abstract type="html">Try to parse an XML and wrap it into a dictionary.
+If you just want to get some value from a small xml, try this.</Abstract>
+			<DeclaredIn>NSDictionary+YYAdd.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSDictionary *)dictionaryWithXML:(id)xmlDataOrString</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>xmlDataOrString</Name>
+					<Abstract type="html">XML in NSData or NSString format.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Return a new dictionary, or nil if an error occurs.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryWithXML:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.csc.base</string>
+	<key>CFBundleName</key>
+	<string>base Documentation</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	
+	
+	
+	<key>DocSetFallbackURL</key>
+	<string>http://csc.com/China Software Cloud</string>
+	<key>DocSetFeedName</key>
+	<string>base Documentation</string>
+	<key>DocSetFeedURL</key>
+	<string>http://csc.com/China Software Cloud/China Software Cloud.atom</string>
+	<key>DocSetMinimumXcodeVersion</key>
+	<string>3.0</string>
+	<key>DocSetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>DashDocSetFamily</key>
+	<string>appledoc</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>com.csc.documentation</string>
+	<key>DocSetPublisherName</key>
+	<string>China Software Cloud</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2019 China Software Cloud. All rights reserved.</string>
+</dict>
+</plist>
